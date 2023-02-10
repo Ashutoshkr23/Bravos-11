@@ -4,7 +4,7 @@ function Main() {
     const img1 = "/assets/images/main/hero-text-bg.png"
 
     return (
-        <div className='main bg-black'>
+        <div className='main bg-dark'>
             <div className='mx-32 py-16'>
                 <h1 className="text-6xl text-transparent font-bold text-center" style={{ backgroundImage: `url('/assets/images/main/hero-text-bg1.png')`, backgroundClip: 'text', WebkitBackgroundClip: 'text' }}>READY TO TAKE ON MARKETING PROBLEMS LIKE IT'S OUR EVERYDAY BUISNESS.</h1>
 
