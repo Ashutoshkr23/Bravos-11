@@ -6,6 +6,7 @@ import About from '../components/About'
 import Offerings from '../components/Offerings'
 import Team from '../components/Team'
 import Partners from '../components/Partners'
+import Testimonials from '../components/Testimonials'
 
 
 const Home: NextPage = () => {
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <Offerings/>
       <Team/>
       <Partners/>
+      <Testimonials/>
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 function TeamComp({img , designation , name , tagline }) {
   return (
-    <div className='bg-transparent w-[326px] h-[311px] border border-transparent rounded-lg'>
-      <img src={img} alt="sid" className='absolute mx-[96px]' />
+    <div className='bg-transparent w-[326px] h-[311px] border border-transparent rounded-lg relative'>
+      <img src={img} alt="sid" className='absolute inset-x-0 mx-auto' />
       <div className="w-full h-[215px] bottom-0 mt-[96px] pt-[57px] rounded-lg bg-white-1 border-black">
         <div className='w-[276px] mx-auto  h-20 bg-white rounded-md py-4'>
           <p className='text-base text-center  '>{designation}</p>
