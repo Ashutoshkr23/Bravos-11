@@ -3,14 +3,16 @@ import TeamComp from './TeamComp'
 
 function Team() {
   return (
-    <div className='bg-blue-1 py-16'>
-      <div >
+    <div className='bg-blue-1 relative '>
+          <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-4' />
+          <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
+      <div className='py-16'>     
         <div>
             <div>
                 <p className='text-black font-light text-base text-center tracking-widest'>SERVICES</p>
                 <h1 className='text-black font-bold text-5xl text-center mt-5'>WE OFFER</h1>
             </div>
-                  <div className='flex mx-auto gap-10 justify-center mt-10'>
+                  <div className='flex mx-auto gap-10 justify-center mt-16'>
                       <div>
                           <TeamComp
                            img={"./assets/images/team/Sid.png"}

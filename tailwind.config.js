@@ -17,6 +17,7 @@ module.exports = {
         'dark': '#0c0c0f',
         'blue-1': '#5CB8E4',
         'white-1': '#f5f5fa',
+        'blue-2': 'rgba(92, 184, 228, .4)',
       }
 },
   },
