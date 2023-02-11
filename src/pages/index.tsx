@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import Offerings from '../components/Offerings'
+import Team from '../components/Team'
+import Partners from '../components/Partners'
 
 
 const Home: NextPage = () => {
@@ -17,6 +19,8 @@ const Home: NextPage = () => {
       <Main/>
       <About/>
       <Offerings/>
+      <Team/>
+      <Partners/>
     </div>
   )
 }
