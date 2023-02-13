@@ -3,6 +3,10 @@ import React from 'react'
 function Partners() {
   return (
     <div className='px-28 py-28 bg-dark'>
+      {/*Laptop */}
+      <div className='hidden lg;block'></div>
+      {/*Mobiles*/}
+      <div className='lg:hidden'></div>
       <p className='text-white font-light text-base  tracking-widest'>WORK</p>
       <h1 className='text-white font-bold text-5xl mt-5'>PARTNERS IN PROGRESS</h1>
       <div className='flex flex-row gap-44 justify-center'>

@@ -3,11 +3,23 @@ import React from 'react'
 function OfferingComp({img ,title, description}) {
   return (
     <div>
-          <div className='h-80 w-80 drop-shadow-white rounded-md bg-white border border-blue-1 '>
-              <img src={img} alt="offerings-bg" className='w-16 h-16 mx-auto mt-10' />
-              <p className='text-black text-lg font-bold mt-7 text-center '>{title}</p>
-              <p className='text-black text-sm font-light leading-relaxed mt-7 text-center px-12'>{description}</p>
-          </div>
+      {/*Laptop */}
+      <div className='hidden lg:block'>
+        <div className='h-80 w-80 drop-shadow-white rounded-md bg-white border border-blue-1 '>
+          <img src={img} alt="offerings-bg" className='w-16 h-16 mx-auto mt-10' />
+          <p className='text-black text-lg font-bold mt-7 text-center '>{title}</p>
+          <p className='text-black text-sm font-light leading-relaxed mt-7 text-center px-12'>{description}</p>
+        </div>
+      </div>
+      {/*Mobiles*/}
+      <div className='lg:hidden'>
+        <div className='h-[165px] w-[155px] sm:h-56 sm:w-56 drop-shadow-white rounded-md bg-white border border-blue-1 mt-10'>
+          <img src={img} alt="offerings-bg" className='w-10 sm:w-14 h-10 sm:h-14 mx-auto mt-4 sm:mt-6' />
+          <p className='text-black text-[11px] sm:text-sm font-bold mt-4 sm:mt-6 text-center '>{title}</p>
+          <p className='text-black text-[9px] font-light leading-relaxed mt-1.5  sm:mt-3 text-center px-2 sm:px-5'>{description}</p>
+        </div>
+      </div>
+          
     </div>
   )
 }

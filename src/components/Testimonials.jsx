@@ -1,23 +1,27 @@
 import React from 'react'
 import TestimonialComp from './TestimonialComp'
+import Slider from './Slider'
 
 function Testimonials() {
   return (
     <div className='bg-blue-1'>
+      {/*Laptop */}
+      <div className='hidden lg;block'></div>
+      {/*Mobiles*/}
+      <div className='lg:hidden'></div>
         <div className='py-16'>
               <div className='pl-36'>
                   <p className='text-black font-light text-base  tracking-widest'>TESTIMONIALS</p>
                   <h1 className='text-black font-bold text-5xl mt-5'>CLIENT SAYS</h1>
               </div>
-              <div className='px-32'>
-                  <TestimonialComp 
+    {/*
+     <TestimonialComp 
                   img={"assets/images/testimonial/Anil.png"}
                   feedback={"The Bravas Digital team is highly responsive and is very quick on the uptake of our ever-evolving business strategies. They are an excellent partner for your digital communication requirements."}
                   name={"Siddharth Nair"}
                   designation={"Co-Founder, Goodwind Mototours"}
             />
-              </div>
-        <TestimonialComp 
+            <TestimonialComp 
           img={"assets/images/testimonial/Sachi.png"}
           feedback={"Every member of Bravas Digital treats my brand as their own brainchild. They understand our objectives and make sure all tasks are aligned accordingly. Highly recommend them for growing brands."}
           name={"SUCHI SANDHU"}
@@ -43,6 +47,16 @@ function Testimonials() {
           feedback={"As a start-up, it's great to have someone like the Bravas Digital Team to rely on our marketing efforts. They have a wonderful team of experts taking care of all the different aspects of marketing."}
           name={"Rikshit Kotian,"}
           designation={"Director - Business Development, Verraton Health Private Limited"} />
+    */}
+              <div className='px-32'>
+                 
+              </div>
+        <Slider/>
+        </div>
+        <div className='h-20 w-10/12 bg-slate-600 '>
+        <div className='h-10 w-10/12 bg-slate-800 '>
+
+        </div>
         </div>
     </div>
   )

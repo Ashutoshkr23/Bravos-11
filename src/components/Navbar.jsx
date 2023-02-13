@@ -3,6 +3,10 @@ import React from 'react'
 function Navbar() {
   return (
       <div>
+          {/*Laptop */}
+          <div className='hidden lg;block'></div>
+          {/*Mobiles*/}
+          <div className='lg:hidden'></div>
           <div className='navbar bg-dark'>
               <div className='mx-32 my-auto h-40 flex content-center justify-between' >
                   <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-20 w-44 my-10" />
