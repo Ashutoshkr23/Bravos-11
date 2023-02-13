@@ -87,7 +87,7 @@ function Team() {
                   </div>
               </div>
           </div>
-          {/*Mobiles*/}
+          {/*Mobiles-lg*/}
           <div className='lg:hidden'>
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-2 h-16 w-16' />
               <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-2 left-2 h-20 w-20' />
@@ -97,7 +97,7 @@ function Team() {
                           <p className='text-black font-light text-xs sm:text-sm text-center tracking-widest'>TEAM</p>
                           <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>MEET THE TEAM</h1>
                       </div>
-                      <div className='flex mx-auto gap-10 justify-center mt-16'>
+                      <div className='grid grid-cols-2 mx-10 gap-y-10  mt-10 justify-items-center'>
                           <div>
                               <TeamComp
                                   img={"./assets/images/team/Sid.png"}
@@ -118,8 +118,6 @@ function Team() {
                                   name={"SANDEEP TELANG"}
                                   tagline={"Working up my way up Maslow’s pyramid"} />
                           </div>
-                      </div>
-                      <div className='flex mx-auto gap-10 justify-center mt-10'>
                           <div>
                               <TeamComp img={"./assets/images/team/Krishna.png"}
                                   designation={"Digital Marketing Manager"}
@@ -138,8 +136,6 @@ function Team() {
                                   name={"OMKESH HODAWADEKAR"}
                                   tagline={"Design is so simple, that's why it's so complicated"} />
                           </div>
-                      </div>
-                      <div className='flex mx-auto gap-10 justify-center mt-10'>
                           <div>
                               <TeamComp img={"./assets/images/team/Aniket.png"}
                                   designation={"junior Graphic Designer"}
@@ -158,8 +154,6 @@ function Team() {
                                   name={"MAHEK SACHDEVA"}
                                   tagline={"The 3 C s of Success : Commitment, Consistency and Confidence"} />
                           </div>
-                      </div>
-                      <div className='flex mx-auto gap-10 justify-center mt-10'>
                           <div>
                               <TeamComp img={"./assets/images/team/Rishita1.png"}
                                   designation={"Digital Marketing Excutive"}
@@ -170,6 +164,7 @@ function Team() {
                   </div>
               </div>
           </div>
+
           
     </div>
   )
