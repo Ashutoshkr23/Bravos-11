@@ -61,8 +61,8 @@ function About() {
               <p className='text-white text-xs sm:text-base font-light mt-4'>That’s our mantra to be a one-of-a-kind company in the digital space.</p>
             </div>
           </div>
-          <div className='mt-12'>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className='mx-5 sm:mx-12 drop-shadow-blue' />
+          <div className='mt-16 mx-4 sm:mx-10 '>
+            <img src="/assets/images/about/laptop.png" alt="laptop-image" className=' drop-shadow-blue' />
           </div>
           <div className='mt-24'>
             <div className='flex-col pl-4 sm:px-16 '>
@@ -92,7 +92,7 @@ function About() {
             </div>
           </div>
           <div className='mt-16 mx-4 sm:mx-10 '>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className=' drop-shadow-blue' />
+            <img src="/assets/images/about/laptop.png" alt="laptop-image" className=' drop-shadow-green' />
           </div>
         </div>
       </div>

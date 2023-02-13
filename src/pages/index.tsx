@@ -7,6 +7,7 @@ import Offerings from '../components/Offerings'
 import Team from '../components/Team'
 import Partners from '../components/Partners'
 import Testimonials from '../components/Testimonials'
+import Demo from '../components/Demo'
 
 
 const Home: NextPage = () => {
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Team/>
       <Partners/>
       <Testimonials/>
+      <Demo/>
     </div>
   )
 }
