@@ -11,7 +11,7 @@ function Partners() {
   return (
     <div className="bg-dark">
       {/* Laptop */}
-      <div className="hidden sm:block px-28 py-28">
+      <div className="hidden lg:block px-28 py-28">
         <p className="text-white font-light text-base tracking-widest">WORK</p>
         <h1 className="text-white font-bold text-5xl mt-5">
           PARTNERS IN PROGRESS
@@ -70,20 +70,20 @@ function Partners() {
       {/* Mobiles*/}
 
       {/*Mobiles*/}
-      <div className='sm:hidden bg-dark px-5 py-16'>
+      <div className='lg:hidden bg-dark px-5 sm:px-12 py-16'>
       <div>
-        <p className='text-white font-light text-xs sm:text-sm tracking-widest'>WORK</p>
+        <p className='text-white  font-light text-xs sm:text-sm tracking-widest'>WORK</p>
         <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
           <div className='mt-20 h-[141px] w-[171px] bg-white rounded-md pt- mx-auto '>
             <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto h-16 w-16' />
             <h3 className='mt-4 text-center font-bold text-xs px-8'>CUSTOMER CONNECTIONS</h3>
           </div>
-          <img src="/assets/images/partner/Customer.png" alt="Customer-Images" className='mx-4 mt-6' />
+          <img src="/assets/images/partner/Customer.png" alt="Customer-Images" className='mx-auto w-3/4 mt-6' />
           <div className='mt-20 h-[141px] w-[171px] bg-white rounded-md pt- mx-auto '>
             <img src="/assets/images/partner/BAB.png" alt="CC" className='mx-auto h-16 w-16' />
             <h3 className='mt-4 text-center font-bold text-xs px-8'>BUISNESS AND BEYOND</h3>
           </div>
-          <img src="/assets/images/partner/Buisness.png" alt="Customer-Images" className='mx-4 mt-6' />
+          <img src="/assets/images/partner/Buisness.png" alt="Customer-Images" className='mx-auto w-3/4 mt-6' />
       </div>
       </div>
     </div>

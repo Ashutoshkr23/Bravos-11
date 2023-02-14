@@ -1,14 +1,31 @@
 import React from 'react'
 
 function TeamComp({img , designation , name , tagline }) {
+  const [showContent, setShowContent] = React.useState(false);
   return (
 <div>
       {/*Laptop */}
-      <div className='hidden sm:block'>
-        <div className='bg-transparent w-[326px] h-[311px] border border-transparent rounded-lg relative'>
-          <img src={img} alt="sid" className='absolute inset-x-0 mx-auto' />
-          <div className="w-full h-[215px] bottom-0 mt-[96px] pt-[57px] rounded-lg bg-white-1 border-black">
-            <div className='w-[276px] mx-auto  h-20 bg-white rounded-md py-4'>
+      <div className='hidden sm:block '>
+        <div className='bg-transparent w-[260px] h-[248px] lg:w-[326px] lg:h-[311px] ease-out duration-200 hover:scale-[1.15] border border-transparent rounded-lg relative' onMouseEnter={() => setShowContent(true)}
+          onMouseLeave={() => setShowContent(false)}>
+          
+          <img src={img} alt="sid" className='absolute z-50 inset-x-0 mx-auto h-[113px] lg:h-[142px] w-[113px] lg:w-[142px]' />
+          <div className="w-full relative h-[172px] lg:h-[215px] bottom-0 mt-[76px] lg:mt-[96px] pt-11 lg:pt-[57px] rounded-lg bg-white-1 border-black">
+            {(name === "SIDDHART NAIR" || name === "VAISHNAV") && showContent && (
+              <div className=" absolute top-0 left-0 p-4">
+                <div className='flex gap-2 align-bottom'>
+                  <a href="">
+                    <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
+                  </a>
+                  <a href="">
+                    <img src="/assets/images/team/Mail.png" alt="Example Image" className='mt-auto' />
+                  </a>
+                </div>
+
+
+              </div>
+            )}
+            <div className='w-60 lg:w-[276px] h-16 lg:h-20 bg-white rounded-md py-2 mx-auto lg:py-4'>
               <p className='text-base text-center  '>{designation}</p>
               <h1 className='font-bold text-lg text-center'>{name}</h1>
             </div>
@@ -20,9 +37,24 @@ function TeamComp({img , designation , name , tagline }) {
       </div>
       {/*Mobiles*/}
       <div className='sm:hidden'>
-        <div className='bg-transparent h-40 w-[154px] border border-transparent rounded-lg relative'>
+        <div className='bg-transparent h-40 w-[154px] hover:scale-[1.15] ease-out duration-200 border border-transparent rounded-lg relative' onMouseEnter={() => setShowContent(true)}
+          onMouseLeave={() => setShowContent(false)}>
           <img src={img} alt="sid" className='absolute inset-x-0 h-16 w-16 mx-auto' />
           <div className="w-full h-[114px] bottom-0 mt-11 pt-7 rounded-lg bg-white-1 border-black">
+            {(name === "SIDDHART NAIR" || name === "VAISHNAV") && showContent && (
+              <div className=" absolute top-0 left-0 p-4">
+                <div className='flex gap-2 align-bottom'>
+                  <a href="">
+                    <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
+                  </a>
+                  <a href="">
+                    <img src="/assets/images/team/Mail.png" alt="Example Image" className='mt-auto' />
+                  </a>
+                </div>
+
+
+              </div>
+            )}
             <div className='w-[138px] mx-auto  h-10 bg-white rounded-md py-2'>
               <p className='text-[9px] text-center  '>{designation}</p>
               <h1 className='font-bold text-[10px] text-center'>{name}</h1>
