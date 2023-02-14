@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.swiper-button-next {
+    color: transparent !important;
+    background-image: url("/assets/images/testimonial/Right-arrow.png");
+    background-size: 100% 100%;
+}
+
+.swiper-button-prev {
+    color: transparent !important;
+    background-image: url("/assets/images/testimonial/Left-arrow.png");
+    background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+    box-shadow: 1px 1px #f46c74;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    box-shadow: 1px 1px #f46c74;
+}

@@ -8,6 +8,8 @@ import Team from '../components/Team'
 import Partners from '../components/Partners'
 import Testimonials from '../components/Testimonials'
 import Demo from '../components/Demo'
+import NavigationBar from '../components/NavigationBar'
+import Connect from '../components/Connect'
 
 
 const Home: NextPage = () => {
@@ -25,6 +27,7 @@ const Home: NextPage = () => {
       <Partners/>
       <Testimonials/>
       <Demo/>
+      <Connect/>
     </div>
   )
 }
