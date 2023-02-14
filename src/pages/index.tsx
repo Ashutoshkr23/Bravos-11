@@ -10,6 +10,7 @@ import Testimonials from '../components/Testimonials'
 import Demo from '../components/Demo'
 import NavigationBar from '../components/NavigationBar'
 import Connect from '../components/Connect'
+import Footer from '../components/Footer'
 
 
 const Home: NextPage = () => {
@@ -26,8 +27,8 @@ const Home: NextPage = () => {
       <Team/>
       <Partners/>
       <Testimonials/>
-      <Demo/>
       <Connect/>
+      <Footer/>
     </div>
   )
 }
