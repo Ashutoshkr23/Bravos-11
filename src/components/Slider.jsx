@@ -14,7 +14,7 @@ const Slider = () => {
     return (
         <div className="relative overflow-hidden w-full ">
             <div className='hidden lg:block'>
-                <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50} centeredSlides={true} slidesPerView={3} navigation pagination={{ clickable: true }} >
+                <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50}  slidesPerView={3} navigation pagination={{ clickable: true }} >
                     <SwiperSlide >
                         <TestimonialComp
                             img={"assets/images/testimonial/Anil.png"}
