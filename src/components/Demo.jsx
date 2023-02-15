@@ -1,20 +1,22 @@
+
 import React from 'react'
 
+
 function Demo() {
-    const logos = ['/assets/images/customer/img1.png', '/assets/images/customer/img2.png', '/assets/images/customer/img3.png', '/assets/images/customer/img4.png', '/assets/images/customer/img5.png', '/assets/images/customer/img6.png', '/assets/images/customer/img7.png', '/assets/images/customer/img8.png', '/assets/images/customer/img9.png', '/assets/images/customer/img10.png', '/assets/images/customer/img11.png', '/assets/images/customer/img12.png', '/assets/images/customer/img13.png', '/assets/images/customer/img14.png', '/assets/images/customer/img15.png', '/assets/images/customer/img16.png', '/assets/images/customer/img17.png', '/assets/images/customer/img18.png', '/assets/images/customer/img19.png', '/assets/images/customer/img20.png',];
-
   return (
-      <div className='w-10/12 mx-auto'>
-          <div className="grid grid-cols-4  ">
-              {logos.map((logo, index) => (
-                  <div key={index} className="border px-2 py-2 border-blue-500">
-                      <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
+              <div>
+                  
+                  <div className="w-3/4 m-auto bg-gray-300 h-96">
+                      <div id="sticky" className="sticky top-4 bg-red-500 w-1/4 h-24 flex justify-center items-center shadow-lg text-white">
+                          sticky
+                      </div>
                   </div>
-              ))}
-          </div>
-      </div>
+                  <br />
+                  <div className="h-100"></div>
+              </div>
+          );
+      }
 
-  )
-}
+  
 
 export default Demo

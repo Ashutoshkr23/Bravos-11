@@ -8,13 +8,13 @@ function About() {
       <div className='hidden lg:block relative' >
         <div className='flex'>
           <div className='flex-col pl-32 pr-16 w-1/2'>
-            <p className='text-white text-base tracking-widest'>ABOUT</p>
+            <p className='text-white text-base mt-10 tracking-widest'>ABOUT</p>
             <h1 className='text-white text-5xl font-bold mt-5'>Being Bravas</h1>
             <p className='text-white text-lg font-light mt-8'>No room for uncertainty.</p>
             <p className='text-white text-lg font-light mt-4'>That’s our mantra to be a one-of-a-kind company in the digital space.</p>
           </div>
           <div className='w-1/2'>
-            <img src="/assets/images/about/Laptop-1.png" alt="laptop-image" className='cover drop-shadow-blue sticky top-0' />
+            <img src="/assets/images/about/Laptop-1.png" alt="laptop-image" className='cover  drop-shadow-blue ' />
           </div>
 
         </div>

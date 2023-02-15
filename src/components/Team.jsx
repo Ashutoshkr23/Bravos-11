@@ -89,6 +89,14 @@ function Team() {
           </div>
           {/*Mobiles-lg*/}
           <div className='lg:hidden'>
+              <div className='flex'>
+                  <div><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='sticky top-0 invisible' /></div>
+                  <div className='mx-auto mt-16'>
+                      <p className='text-black font-light text-base text-center tracking-widest'>TEAM</p>
+                      <h1 className='text-black font-bold text-5xl text-center mt-5'>MEET THE TEAM</h1>
+                  </div>
+                  <div><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='sticky top-0 z-50' /></div>
+              </div>
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-2 h-16 w-16' />
               <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-2 left-2 h-20 w-20' />
               <div className='py-16'>

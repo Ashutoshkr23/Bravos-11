@@ -32,7 +32,7 @@ const Home: NextPage = () => {
   return (
     <div >
       <Head>
-        <title>Create Next</title>
+        <title>BRAVAS DIGIITAL</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
@@ -41,6 +41,7 @@ const Home: NextPage = () => {
       <Offerings variantType13={fadeDown} />
       <Team/>
       <Partners/>
+      <Demo/>
       <Testimonials/>
       <Connect/>
       <Footer/>
