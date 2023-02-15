@@ -26,7 +26,6 @@ const Home: NextPage = () => {
       <Offerings/>
       <Team/>
       <Partners/>
-      <Demo/>
       <Testimonials/>
       <Connect/>
       <Footer/>
