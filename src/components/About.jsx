@@ -45,10 +45,10 @@ function About() {
             </p>
           </div>
           <div>
-            <img src="/assets/images/about/Laptop-2.png" alt="laptop-image" className='w-[700px] h-[404px] drop-shadow-green' />
+            <img src="/assets/images/about/Laptop-2.png" alt="laptop-image" className='cover ' />
           </div>
         </div>
-        <p className='text-center text-2xl text-white my-24'>WE ARE <span className='font-bold text-blue-1'>BRAVE,</span> . WE ARE <span className='font-bold text-blue-1'>BRAVOS.</span></p>
+        <p className='text-center text-2xl text-white my-24'>WE ARE <span className='font-bold text-blue-1'>BRAVE,</span> . WE ARE <span className='font-bold text-blue-1'>BRAVAS.</span></p>
       </div>
       {/*Mobiles*/}
       <div className='lg:hidden mx-4 sm:mx-10'>
