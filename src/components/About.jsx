@@ -62,7 +62,7 @@ function About() {
             </div>
           </div>
           <div className='mt-16 mx-4 sm:mx-10 '>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className=' drop-shadow-blue' />
+            <img src="/assets/images/about/Laptop-1.png" alt="laptop-image" className=' drop-shadow-blue' />
           </div>
           <div className='mt-24'>
             <div className='flex-col pl-4 sm:px-16 '>
@@ -92,7 +92,7 @@ function About() {
             </div>
           </div>
           <div className='mt-16 mx-4 sm:mx-10 '>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className=' drop-shadow-green' />
+            <img src="/assets/images/about/Laptop-2.png" alt="laptop-image" className=' drop-shadow-green' />
           </div>
         </div>
       </div>
