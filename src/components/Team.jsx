@@ -89,14 +89,7 @@ function Team() {
           </div>
           {/*Mobiles-lg*/}
           <div className='lg:hidden'>
-              <div className='flex'>
-                  <div><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='sticky top-0 invisible' /></div>
-                  <div className='mx-auto mt-16'>
-                      <p className='text-black font-light text-base text-center tracking-widest'>TEAM</p>
-                      <h1 className='text-black font-bold text-5xl text-center mt-5'>MEET THE TEAM</h1>
-                  </div>
-                  <div><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='sticky top-0 z-50' /></div>
-              </div>
+             
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-2 h-16 w-16' />
               <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-2 left-2 h-20 w-20' />
               <div className='py-16'>
@@ -105,7 +98,7 @@ function Team() {
                           <p className='text-black font-light text-xs sm:text-sm text-center tracking-widest'>TEAM</p>
                           <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>MEET THE TEAM</h1>
                       </div>
-                      <div className='grid grid-cols-2 mx-10 gap-y-10  mt-10 justify-items-center'>
+                      <div className='grid grid-cols-2 mx-6 sm:mx-12 gap-y-10 gap-x-4  mt-10 justify-items-center'>
                           <div>
                               <TeamComp
                                   img={"./assets/images/team/Sid.png"}
