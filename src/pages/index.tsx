@@ -13,22 +13,7 @@ import Footer from '../components/Footer'
 
 
 const Home: NextPage = () => {
-  const fadeDown = {
-    initial: {
-      y: 50,
-      opacity: 0.8
-    },
-    exit:{
-      y: 0,
-    },
-    animate: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1,
-      }
-    }
-  }
+  
   return (
     <div >
       <Head>
@@ -38,7 +23,7 @@ const Home: NextPage = () => {
       <Navbar/>
       <Main/>
       <About/>
-      <Offerings variantType13={fadeDown} />
+      <Offerings/>
       <Team/>
       <Partners/>
       <Demo/>

@@ -2,7 +2,24 @@ import React from 'react'
 import OfferingComp from './OfferingComp'
 import { motion, ease } from 'framer-motion';
 
-function Offerings(props) {
+function Offerings() {
+
+  const fadeDown = {
+    initial: {
+      y: 50,
+      opacity: 0.8
+    },
+    exit: {
+      y: 0,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+      }
+    }
+  }
   return (
       <div >
         {/*Laptop */}
@@ -15,7 +32,7 @@ function Offerings(props) {
               <h1 className='text-black font-bold text-5xl text-center mt-5'>WE OFFER</h1>
             </div>
             <motion.div
-              transition={{ duration: 0.3 }} variants={props.variantType13} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
+              transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
             >
               <div className='flex mx-auto gap-10 justify-center mt-10'>
                 <div>
@@ -39,7 +56,7 @@ function Offerings(props) {
               </div>
             </motion.div>
             <motion.div
-              transition={{ duration: 0.3 }} variants={props.variantType13} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
+              transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
 
             >
               <div className='flex mx-auto gap-10 justify-center mt-16'>
@@ -61,7 +78,7 @@ function Offerings(props) {
               </div>
             </motion.div>
             <motion.div
-              transition={{ duration: 0.3 }} variants={props.variantType13} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
+              transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
             >
               <div className='flex mx-auto gap-10 justify-center mt-16'>
                 <div>
