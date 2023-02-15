@@ -1,5 +1,6 @@
 
 import React, {useState}from 'react'
+import Link from 'next/link';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,11 @@ function Navbar() {
                       <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-20 w-44 my-10" />
                       <div className='flex content-center'>
                           <ul className="flex content-center my-auto ">
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#">About</a></li>
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#">Services</a></li>
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#">Team</a></li>
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#">Work</a></li>
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#">Testimonials</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href={`#about`}>About</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#services">Services</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#team">Team</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#work">Work</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#Testimonials">Testimonials</a></li>
                           </ul>
                           <button className='h-10 btn w-40 ml-12 rounded hover:opacity-70 hover:font-bold text-white border border-white my-auto'>Get in Touch</button>
                       </div>
