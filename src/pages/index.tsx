@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 3,
+        duration: 1,
       }
     }
   }

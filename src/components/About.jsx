@@ -5,7 +5,7 @@ function About() {
     
     <div className='bg-dark py-20 lg:py-32'>
       {/*Laptop */}
-      <div className='hidden lg:block'>
+      <div className='hidden lg:block relative' >
         <div className='flex'>
           <div className='flex-col pl-32 pr-16 w-1/2'>
             <p className='text-white text-base tracking-widest'>ABOUT</p>
@@ -13,8 +13,8 @@ function About() {
             <p className='text-white text-lg font-light mt-8'>No room for uncertainty.</p>
             <p className='text-white text-lg font-light mt-4'>That’s our mantra to be a one-of-a-kind company in the digital space.</p>
           </div>
-          <div>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className='w-[700px] h-[404px] drop-shadow-blue' />
+          <div className='w-1/2'>
+            <img src="/assets/images/about/Laptop-1.png" alt="laptop-image" className='cover drop-shadow-blue sticky top-0' />
           </div>
 
         </div>
@@ -45,7 +45,7 @@ function About() {
             </p>
           </div>
           <div>
-            <img src="/assets/images/about/laptop.png" alt="laptop-image" className='w-[700px] h-[404px] drop-shadow-green' />
+            <img src="/assets/images/about/Laptop-2.png" alt="laptop-image" className='w-[700px] h-[404px] drop-shadow-green' />
           </div>
         </div>
         <p className='text-center text-2xl text-white my-24'>WE ARE <span className='font-bold text-blue-1'>BRAVE,</span> . WE ARE <span className='font-bold text-blue-1'>BRAVOS.</span></p>
