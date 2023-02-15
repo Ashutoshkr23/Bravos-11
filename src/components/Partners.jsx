@@ -5,6 +5,11 @@ import Customer from '../components/Customer';
 function Partners() {
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
+
+  const logos = ['/assets/images/customer/img1.png', '/assets/images/customer/img2.png', '/assets/images/customer/img3.png', '/assets/images/customer/img4.png', '/assets/images/customer/img5.png', '/assets/images/customer/img6.png', '/assets/images/customer/img7.png', '/assets/images/customer/img8.png', '/assets/images/customer/img9.png', '/assets/images/customer/img10.png', '/assets/images/customer/img11.png', '/assets/images/customer/img12.png', '/assets/images/customer/img13.png', '/assets/images/customer/img14.png', '/assets/images/customer/img15.png', '/assets/images/customer/img16.png', '/assets/images/customer/img17.png', '/assets/images/customer/img18.png', '/assets/images/customer/img19.png', '/assets/images/customer/img20.png',];
+
+  const logo = ['/assets/images/buisness/image1.png', '/assets/images/buisness/image2.png', '/assets/images/buisness/image3.png', '/assets/images/buisness/image4.png', '/assets/images/buisness/image5.png', '/assets/images/buisness/image6.png', '/assets/images/buisness/image7.png', '/assets/images/buisness/image8.png', '/assets/images/buisness/image9.png', '/assets/images/buisness/image10.png', '/assets/images/buisness/image11.png', '/assets/images/buisness/image12.png', '/assets/images/buisness/image13.png', '/assets/images/buisness/image14.png', '/assets/images/buisness/image15.png', '/assets/images/buisness/image16.png', '/assets/images/buisness/image17.png', '/assets/images/buisness/image18.png', '/assets/images/buisness/image19.png', '/assets/images/buisness/image20.png',];
+
   
 
   
@@ -74,16 +79,40 @@ function Partners() {
       <div>
         <p className='text-white  font-light text-xs sm:text-sm tracking-widest'>WORK</p>
         <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
-          <div className='mt-20 h-[141px] w-[171px] bg-white rounded-md pt- mx-auto '>
-            <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto h-16 w-16' />
-            <h3 className='mt-4 text-center font-bold text-xs px-8'>CUSTOMER CONNECTIONS</h3>
+          <div className='mt-20  w-3/5 bg-white rounded-md py-10 mx-auto '>
+            <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
+            <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>CUSTOMER CONNECTIONS</h3>
           </div>
-          <img src="/assets/images/partner/Customer.png" alt="Customer-Images" className='mx-auto w-3/4 mt-6' />
-          <div className='mt-20 h-[141px] w-[171px] bg-white rounded-md pt- mx-auto '>
-            <img src="/assets/images/partner/BAB.png" alt="CC" className='mx-auto h-16 w-16' />
-            <h3 className='mt-4 text-center font-bold text-xs px-8'>BUISNESS AND BEYOND</h3>
+          <div className='w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50' onClick={() => {
+            setOpen2(false);
+          }}>
+            <div className='w-4/5 bg-white h-full mt-8 '>
+              <div className="grid grid-cols-3 " >
+                {logos.map((logo, index) => (
+                  <div key={index} className="border px-2 py-2 border-blue-500">
+                    <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
-          <img src="/assets/images/partner/Buisness.png" alt="Customer-Images" className='mx-auto w-3/4 mt-6' />
+          <div className='mt-20 w-3/5 bg-white rounded-md py-10 mx-auto '>
+            <img src="/assets/images/partner/BAB.png" alt="CC" className=' w-2/5 mx-auto' />
+            <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUISNESS AND BEYOND</h3>
+          </div>
+          <div className='w-full h-full mt-8 flex justify-center items-center bg-black bg-opacity-50 z-50' onClick={() => {
+            setOpen1(false);
+          }}>
+            <div className='w-4/5 bg-white h-full '>
+              <div className="grid grid-cols-3 " >
+                {logo.map((logo, index) => (
+                  <div key={index} className="border px-2 py-2 border-blue-500">
+                    <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
       </div>
       </div>
     </div>
