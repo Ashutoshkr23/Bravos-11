@@ -42,7 +42,7 @@ function Partners() {
                   VIEW
                 </button>
                 <div>
-                  {open1 && (<Buisness open1={open1} setOpen1={setOpen1}/>)}
+                  {open1 && (<Customer open1={open1} setOpen1={setOpen1}/>)}
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ function Partners() {
                 >
                   VIEW
                 </button>
-                {open2 && (<Customer open2={open2} setOpen2={setOpen2} />)}
+                {open2 && (<Buisness open2={open2} setOpen2={setOpen2} />)}
               </div>
             </div>
           </div>
