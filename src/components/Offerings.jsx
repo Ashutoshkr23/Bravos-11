@@ -112,7 +112,8 @@ function Offerings() {
         <div className='md:hidden bg-white-1'>
           <div className='flex justify-between'>
             <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 invisible' /></div>
-            <div>   <div className=' py-6 '>
+            <div className='w-10/12'>   
+              <div className=' py-6 '>
               <div>
                 <p className='text-black font-light text-xs sm:text-sm text-center tracking-widest'>SERVICES</p>
                 <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>WE OFFER</h1>
@@ -155,7 +156,7 @@ function Offerings() {
                 </div>
               </div>
             </div></div>
-            <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 sticky top-0' /></div>
+            <div className='w-1/6'><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 sticky top-0' /></div>
           </div>
        
         </div>
