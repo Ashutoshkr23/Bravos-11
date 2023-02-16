@@ -4,7 +4,7 @@ function TestimonialComp({ feedback, img, name, designation }) {
   return (
     <div>
       {/*Laptop */}
-      <div className='hidden lg;block'>
+      <div className='hidden lg:block'>
         <div className='relative inline-block h-[437px] w-[364px] mt-16 bg-white rounded-md'>
           <img src={img} alt="" className='absolute inset-x-0 mx-auto bottom-[115px] z-10' />
           <div className='w-[308px] pt-7 px-7'>
