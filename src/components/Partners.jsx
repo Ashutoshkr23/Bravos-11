@@ -19,7 +19,7 @@ function Partners() {
       <div className='hidden lg:block'>
         <div className=' flex justify-between'>
           <div>
-            <img src="/assets/images/partner/Hanging-bulb.png" alt="" className='invisible' />
+            <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' />
           </div>
           <div >
             <div className=" px-28 py-28">
@@ -80,7 +80,7 @@ function Partners() {
             </div>
           </div>
           <div>
-            <img src="/assets/images/partner/Hanging-bulb.png" alt="" className='sticky top-0' />
+            <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='sticky top-0' />
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ function Team() {
     <div className='bg-blue-1 relative  ' id='team'>
           {/*Laptop */}
           <div className='hidden md:block'>
+            
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-4' />
               <img src="/assets/images/team/Puzzle.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
               <div className='py-16'>
