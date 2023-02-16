@@ -65,7 +65,7 @@ const Slider = () => {
 
             {/*Mobiles*/}
             <div className ="hidden md:block lg:hidden">
-                <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50} slidesPerView={2} centeredSlides={true} navigation pagination={{ clickable: true }} >
+                <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={20} slidesPerView={2}  navigation pagination={{ clickable: true }} >
                     <SwiperSlide >
                         <TestimonialComp
                             img={"assets/images/testimonial/Anil.png"}
