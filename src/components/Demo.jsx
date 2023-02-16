@@ -26,6 +26,13 @@ function Demo() {
     };
     return (
         <div className='flex'>
+            <div>
+                <div className='flex justify-between'>
+                    <div><img src="" alt="" className='invisible' /></div>
+                    <div></div>
+                    <div><img src="" alt="" className='sticky' /></div>
+                </div>
+            </div>
             <motion.div className='h-80 w-80 px-6 py-6 bg-slate-200 grid-cols-2' variants={container}
                 initial="hidden"
                 animate="visible"
@@ -48,6 +55,7 @@ function Demo() {
                 <motion.div className='bg-dark h-10 w-20 mt-6 mr-6' variants={item} whileInView="animate" viewport={{ once: false, amount: 0.2 }}></motion.div>
             </motion.div>
         </div>
+        
     )
       }
 

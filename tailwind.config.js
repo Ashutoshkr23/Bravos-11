@@ -23,6 +23,10 @@ module.exports = {
       fontFamily: {
         sans: ['Gotham', 'sans-serif'],
       },
+      backgroundImage: {
+        'Connect': "url('/assets/images/connect/Connect.png')",
+        'Connect-mb': "url('/img/footer-texture.png')",
+      }
 },
   },
   plugins: [
