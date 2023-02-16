@@ -14,11 +14,11 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
             { showContent && (
               <div className=" absolute top-0 left-0 p-4">
                 <div className='flex gap-2 align-bottom'>
-                  <a href={linkedin}>
+                  <a href={linkedin} target="blank">
                     <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
                   </a>
                   {(name === "SIDDHART NAIR" || name === "VAISHNAV") &&(
-                    <a href={mail}>
+                    <a href={mail} target="blank">
                       <img src="/assets/images/team/Mail.png" alt="Example Image" className='mt-auto' />
                     </a>
                   )}
@@ -43,11 +43,11 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
             
               <div className='absolute top-1'>
                 <div className='flex justify-between mx-2 align-bottom'>
-                  <a href={linkedin}>
+                <a href={linkedin} target="blank">
                     <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
                   </a>
                 {(name === "SIDDHART NAIR" || name === "VAISHNAV") && (
-                  <a href={mail}>
+                  <a href={mail} target="blank">
                     <img src="/assets/images/team/Mail.png" alt="Example Image" className='ml-24' />
                   </a>
                 )}
