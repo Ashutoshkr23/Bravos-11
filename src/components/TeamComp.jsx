@@ -9,7 +9,7 @@ function TeamComp({img , designation , name , tagline }) {
         <div className='bg-transparent w-[260px] h-[248px] lg:w-[326px] lg:h-[311px] ease-out duration-200 hover:scale-[1.15] border border-transparent rounded-lg relative' onMouseEnter={() => setShowContent(true)}
           onMouseLeave={() => setShowContent(false)}>
           
-          <img src={img} alt="sid" className='absolute z-50 inset-x-0 mx-auto h-[113px] lg:h-[142px] w-[113px] lg:w-[142px]' />
+          <img src={img} alt="sid" className='absolute z-40 inset-x-0 mx-auto h-[113px] lg:h-[142px] w-[113px] lg:w-[142px]' />
           <div className="w-full relative h-[172px] lg:h-[215px] bottom-0 mt-[76px] lg:mt-[96px] pt-11 lg:pt-[57px] rounded-lg bg-white-1 border-black">
             {(name === "SIDDHART NAIR" || name === "VAISHNAV") && showContent && (
               <div className=" absolute top-0 left-0 p-4">

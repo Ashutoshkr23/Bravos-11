@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     
-    <div className='bg-dark py-20 lg:py-32'>
+    <div className='bg-dark py-20 lg:py-32 ' id='about'>
       {/*Laptop */}
       <div className='hidden lg:block relative' >
         <div className='flex'>

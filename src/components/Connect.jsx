@@ -25,13 +25,13 @@ function Connect() {
 
       </div></div>
       <div className='lg:hidden'>
-        <div className="w-11/12 mx-auto h-52 mt-16 relative">
+        <div className="w-11/12 mx-auto  mt-16 relative">
           <img
             src="/assets/images/connect/Connect.png"
             alt="Sample Image"
             className="h-full object-cover"
           />
-          <div className='absolute top-0 right-0 w-11/12 inset-x-0 mx-auto h-full px-4'>
+          <div className='absolute top-0 right-0 w-11/12 sm:w-10/12 md:w-3/4 inset-x-0 mx-auto h-full px-4'>
             <h1 className=" text-white text-center text-[20px] sm:text-[24px] font-bold mt-12 ">
               Wish to join our creative army or shower us with compliments?
             </h1>

@@ -3,7 +3,7 @@ import TeamComp from './TeamComp'
 
 function Team() {
   return (
-    <div className='bg-blue-1 relative '>
+    <div className='bg-blue-1 relative  ' id='team'>
           {/*Laptop */}
           <div className='hidden lg:block'>
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-4' />

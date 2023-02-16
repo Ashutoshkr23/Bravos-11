@@ -21,9 +21,9 @@ function Offerings() {
     }
   }
   return (
-      <div >
+      <div id='services'>
         {/*Laptop */}
-      <div className='hidden lg:block bg-white-1 '>
+      <div className='hidden lg:block bg-white-1 ' >
         <div className='flex'>
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='invisible' /></div>
           <div className='w-10/12 mx-auto'><div className='py-20'>

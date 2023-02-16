@@ -5,9 +5,7 @@ import Link from 'next/link';
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
+   
   return (
       <div>
           {/*Laptop */}
@@ -68,7 +66,7 @@ function Navbar() {
               </div>
           </div>*/}
           <div className='lg:hidden '>
-          <nav class="bg-dark px-2 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0   ">
+          <nav class="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0   ">
               <div class="container flex flex-wrap items-center justify-between mx-auto">
                   <a href="#" class="flex items-center">
                       <img src="/assets/images/navbar/Logo.png" class="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
@@ -84,31 +82,31 @@ function Navbar() {
                           <div className="absolute w-1/2 right-0 mt-12 mr-10 bg-dark border rounded-md shadow-lg z-10">
                               <div className="py-1 px-4 ">
                                   <a
-                                      href="#"
-                                      className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
+                                      href="#about"
+                                      className="block px-4  py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                   >
                                       About
                                   </a>
                                       <a
-                                          href="#"
+                                          href="#services"
                                           className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                       >
                                           Services
                                       </a>
                                       <a
-                                          href="#"
+                                          href="#team"
                                           className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                       >
                                           Team
                                       </a>
                                       <a
-                                          href="#"
+                                          href="#work"
                                           className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                       >
                                          Work 
                                       </a>
                                       <a
-                                          href="#"
+                                          href="#testimonials"
                                           className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                       >
                                           Testimonial

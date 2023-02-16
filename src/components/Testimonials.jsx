@@ -3,7 +3,7 @@ import Slider from './Slider'
 
 function Testimonials() {
   return (
-    <div className='bg-blue-1'>
+    <div className='bg-blue-1' id='testimonials'>
       <img src="/assets/images/testimonial/Comma-up.png" alt="comma" className='absolute w-1/4 ' />
       <div >
         <div className='py-6 md:pt-10 lg:pt-16'>
