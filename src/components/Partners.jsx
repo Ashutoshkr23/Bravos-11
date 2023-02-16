@@ -83,9 +83,7 @@ function Partners() {
             <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
             <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>CUSTOMER CONNECTIONS</h3>
           </div>
-          <div className='w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-40' onClick={() => {
-            setOpen2(false);
-          }}>
+          <div className='w-full h-full flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
             <div className='w-4/5 bg-white h-full mt-8 '>
               <div className="grid grid-cols-3 " >
                 {logos.map((logo, index) => (
@@ -100,9 +98,7 @@ function Partners() {
             <img src="/assets/images/partner/BAB.png" alt="CC" className=' w-2/5 mx-auto' />
             <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUISNESS AND BEYOND</h3>
           </div>
-          <div className='w-full h-full mt-8 flex justify-center items-center bg-black bg-opacity-50 z-40' onClick={() => {
-            setOpen1(false);
-          }}>
+          <div className='w-full h-full mt-8 flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
             <div className='w-4/5 bg-white h-full '>
               <div className="grid grid-cols-3 " >
                 {logo.map((logo, index) => (
