@@ -89,41 +89,46 @@ function Partners() {
       {/* Mobiles*/}
 
       {/*Mobiles*/}
-      <div className='lg:hidden bg-dark px-5 sm:px-12 py-16'>
-      <div>
-        <p className='text-white  font-light text-xs sm:text-sm tracking-widest'>WORK</p>
-        <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
-          <div className='mt-20  w-3/5 bg-white rounded-md py-10 mx-auto '>
-            <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
-            <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>CUSTOMER CONNECTIONS</h3>
-          </div>
-          <div className='w-full h-full flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
-            <div className='w-4/5 bg-white h-full mt-8 '>
-              <div className="grid grid-cols-3 " >
-                {logos.map((logo, index) => (
-                  <div key={index} className="border px-2 py-2 border-blue-500">
-                    <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
-                  </div>
-                ))}
+      <div className='lg:hidden bg-dark px-5 sm:px-12 '>
+        <div className='flex justify-between '>
+          <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' /></div>
+          <div>
+            <div className='py-16'>
+            <p className='text-white  font-light text-xs sm:text-sm tracking-widest'>WORK</p>
+            <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
+            <div className='mt-20  w-3/5 bg-white rounded-md py-10 mx-auto '>
+              <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
+              <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>CUSTOMER CONNECTIONS</h3>
+            </div>
+            <div className='w-full h-full flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
+              <div className='w-4/5 bg-white h-full mt-8 '>
+                <div className="grid grid-cols-3 " >
+                  {logos.map((logo, index) => (
+                    <div key={index} className="border px-2 py-2 border-blue-500">
+                      <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-          <div className='mt-20 w-3/5 bg-white rounded-md py-10 mx-auto '>
-            <img src="/assets/images/partner/BAB.png" alt="CC" className=' w-2/5 mx-auto' />
-            <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUISNESS AND BEYOND</h3>
-          </div>
-          <div className='w-full h-full mt-8 flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
-            <div className='w-4/5 bg-white h-full '>
-              <div className="grid grid-cols-3 " >
-                {logo.map((logo, index) => (
-                  <div key={index} className="border px-2 py-2 border-blue-500">
-                    <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
-                  </div>
-                ))}
+            <div className='mt-20 w-3/5 bg-white rounded-md py-10 mx-auto '>
+              <img src="/assets/images/partner/BAB.png" alt="CC" className=' w-2/5 mx-auto' />
+              <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUISNESS AND BEYOND</h3>
+            </div>
+            <div className='w-full h-full mt-8 flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
+              <div className='w-4/5 bg-white h-full '>
+                <div className="grid grid-cols-3 " >
+                  {logo.map((logo, index) => (
+                    <div key={index} className="border px-2 py-2 border-blue-500">
+                      <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-      </div>
+          </div></div>
+          <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='sticky top-0' /></div>
+        </div>
       </div>
     </div>
     
