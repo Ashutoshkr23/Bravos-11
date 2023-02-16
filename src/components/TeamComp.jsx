@@ -10,7 +10,7 @@ function TeamComp({img , designation , name , tagline }) {
           onMouseLeave={() => setShowContent(false)}>
           
           <img src={img} alt="sid" className='absolute z-40 inset-x-0 mx-auto h-[113px] lg:h-[142px] w-[113px] lg:w-[142px]' />
-          <div className="w-full relative h-[172px] lg:h-[215px] bottom-0 mt-[76px] lg:mt-[96px] pt-11 lg:pt-[57px] rounded-lg bg-white-1 border-black">
+          <div className="w-full relative h-[180px] lg:h-[215px] bottom-0 mt-[76px] lg:mt-[96px] pt-11 lg:pt-[57px] rounded-lg bg-white-1 border-black">
             {(name === "SIDDHART NAIR" || name === "VAISHNAV") && showContent && (
               <div className=" absolute top-0 left-0 p-4">
                 <div className='flex gap-2 align-bottom'>
@@ -27,10 +27,10 @@ function TeamComp({img , designation , name , tagline }) {
             )}
             <div className='w-60 lg:w-[276px] h-16 lg:h-20 bg-white rounded-md py-2 mx-auto lg:py-4'>
               <p className='text-base text-center  '>{designation}</p>
-              <h1 className='font-bold text-lg text-center'>{name}</h1>
+              <h1 className='font-bold text-base text-center'>{name}</h1>
             </div>
             <div className='px-7 '>
-              <p className='text-sm font-light mt-4 mb-4 text-black text-center mx-6 '>{tagline}</p>
+              <p className='text-sm font-light mt-4 mb-4 text-black text-center mx-2 lg:mx-6 '>{tagline}</p>
             </div>
           </div>
       </div>
