@@ -23,7 +23,7 @@ function Offerings() {
   return (
       <div id='services'>
         {/*Laptop */}
-      <div className='hidden lg:block bg-white-1 ' >
+      <div className='hidden md:block bg-white-1 ' >
         <div className='flex'>
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='invisible' /></div>
           <div className='w-10/12 mx-auto'><div className='py-20'>
@@ -109,7 +109,7 @@ function Offerings() {
         </div>
         {/*Mobiles*/}
         <div>
-        <div className='lg:hidden '>
+        <div className='md:hidden '>
           <img src="/assets/images/offerings/Bulb.png" alt="bulb" className='absolute right-0 h-36 sm:48 w-10 sm:w-14' />
           <div className='bg-white-1 py-6 '>
             <div>

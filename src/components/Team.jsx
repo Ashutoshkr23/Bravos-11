@@ -5,9 +5,9 @@ function Team() {
   return (
     <div className='bg-blue-1 relative  ' id='team'>
           {/*Laptop */}
-          <div className='hidden lg:block'>
+          <div className='hidden md:block'>
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-4' />
-              <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
+              <img src="/assets/images/team/Puzzle.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
               <div className='py-16'>
                   <div>
                       <div>
@@ -88,7 +88,7 @@ function Team() {
               </div>
           </div>
           {/*Mobiles-lg*/}
-          <div className='lg:hidden'>
+          <div className='md:hidden'>
              
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-2 h-16 w-16' />
               <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-2 left-2 h-20 w-20' />

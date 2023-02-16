@@ -5,7 +5,7 @@ function TeamComp({img , designation , name , tagline }) {
   return (
 <div>
       {/*Laptop */}
-      <div className='hidden sm:block '>
+      <div className='hidden md:block '>
         <div className='bg-transparent w-[260px] h-[248px] lg:w-[326px] lg:h-[311px] ease-out duration-200 hover:scale-[1.15] border border-transparent rounded-lg relative' onMouseEnter={() => setShowContent(true)}
           onMouseLeave={() => setShowContent(false)}>
           
@@ -36,19 +36,18 @@ function TeamComp({img , designation , name , tagline }) {
       </div>
       </div>
       {/*Mobiles*/}
-      <div className='sm:hidden'>
-        <div className='bg-transparent h-40 w-[154px] hover:scale-[1.15] ease-out duration-200 border border-transparent rounded-lg relative' onMouseEnter={() => setShowContent(true)}
-          onMouseLeave={() => setShowContent(false)}>
+      <div className='md:hidden'>
+        <div className='bg-transparent h-40 w-[154px] hover:scale-[1.15] ease-out duration-200 border border-transparent rounded-lg relative' >
           <img src={img} alt="sid" className='absolute inset-x-0 h-16 w-16 mx-auto' />
-          <div className="w-full h-[114px] bottom-0 mt-11 pt-7 rounded-lg bg-white-1 border-black">
-            {(name === "SIDDHART NAIR" || name === "VAISHNAV") && showContent && (
-              <div className=" absolute top-0 left-0 p-4">
+          <div className="w-full relative h-[114px] bottom-0 mt-11 pt-7 rounded-lg bg-white-1 border-black">
+            {(name === "SIDDHART NAIR" || name === "VAISHNAV") &&  (
+              <div className='absolute top-1'>
                 <div className='flex gap-2 align-bottom'>
                   <a href="">
                     <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
                   </a>
                   <a href="">
-                    <img src="/assets/images/team/Mail.png" alt="Example Image" className='mt-auto' />
+                    <img src="/assets/images/team/Mail.png" alt="Example Image" />
                   </a>
                 </div>
 

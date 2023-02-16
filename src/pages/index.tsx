@@ -18,7 +18,7 @@ const Home: NextPage = () => {
     <div >
       <Head>
         <title>BRAVAS DIGIITAL</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar/>
       <Main/>

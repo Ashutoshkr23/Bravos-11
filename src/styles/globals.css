@@ -44,3 +44,14 @@
     font-weight: light;
     font-style: normal;
 }
+
+html {
+    scroll-snap-type: y;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
