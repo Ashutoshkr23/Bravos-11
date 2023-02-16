@@ -19,7 +19,7 @@ function Navbar() {
                               <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#services">Services</a></li>
                               <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#team">Team</a></li>
                               <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#work">Work</a></li>
-                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#Testimonials">Testimonials</a></li>
+                              <li className="text-white text- px-1.5 hover:font-bold font-light"><a href="#testimonials">Testimonials</a></li>
                           </ul>
                           <button className='h-10 btn w-40 ml-12 rounded hover:bg-blue-1 hover:font-bold hover:border-none text-white border border-white my-auto'>Get in Touch</button>
                       </div>
