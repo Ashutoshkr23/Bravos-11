@@ -106,7 +106,7 @@ function Team() {
          
           </div>
           {/*Mobiles-lg*/}
-          <div className='lg:hidden'>
+          <div className='lg:hidden pb-6'>
              
               <img src="/assets/images/team/Pencil.png" alt="pencil-image" className='absolute right-2 w-1/6  ' />
               <img src="/assets/images/team/Block.png" alt="puzzle-block" className='absolute -bottom-2 left-2 h-20 w-20' />
