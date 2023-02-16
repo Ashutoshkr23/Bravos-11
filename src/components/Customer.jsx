@@ -7,7 +7,7 @@ function Customer({ open2, setOpen2 }) {
         <div className='fixed top-0 left-0  w-full h-full flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-md z-20' onClick={() => {
             setOpen2(false);
         }}>
-            <div className='w-3/5 bg-white z-30 '>
+            <div className='w-2/5 bg-white z-30 '>
                 <div className="grid grid-cols-5 " >
                     {logos.map((logo, index) => (
                         <div key={index} className="border px-2 py-2 border-blue-500">
