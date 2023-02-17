@@ -10,9 +10,9 @@ function Navbar() {
       <div>
           {/*Laptop */}
           <div className='hidden lg:block'>
-              <div className='navbar bg-dark'>
-                  <div className='mx-32 my-auto h-40 flex content-center justify-between' >
-                      <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-20 w-44 my-10" />
+              <div className='navbar z-50 fixed inset-x-0 bg-dark'>
+                  <div className='mx-32 my-auto h-28 flex content-center justify-between' >
+                      <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-20 w-44 my-auto" />
                       <div className='flex content-center'>
                           <ul className="flex content-center my-auto ">
                               <li className="text-white text- px-1.5 hover:font-bold font-light"><a href={`#about`}>About</a></li>
@@ -66,17 +66,17 @@ function Navbar() {
               </div>
           </div>*/}
           <div className='lg:hidden '>
-          <nav className="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0   ">
-              <div className="container flex flex-wrap items-center justify-between mx-auto">
-                  <a href="#" className="flex items-center">
-                      <img src="/assets/images/navbar/Logo.png" className="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
+          <nav class="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0   ">
+              <div class="container flex flex-wrap items-center justify-between mx-auto">
+                  <a href="#" class="flex items-center">
+                      <img src="/assets/images/navbar/Logo.png" class="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
                   </a>
-                  <div className="flex ">
+                  <div class="flex ">
                       <button className='h-10 btn w-28 ml-12 rounded text-white border border-white hover:bg-blue-1 hover:border-none hover:font-bold my-auto mr-4'>Get in Touch</button>
                       <button
                           onClick={() => setIsOpen(!isOpen)}
-                          type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                          <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
+                          type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                       </button>
                       {isOpen && (
                           <div className="absolute w-1/2 right-0 mt-12 mr-10 bg-dark border rounded-md shadow-lg z-10">
