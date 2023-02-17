@@ -28,7 +28,7 @@ function About() {
         <div className='flex'>
           <div className='w-1/2'>
             <div className='flex-col mx-auto'>
-              <div className='flex h-screen py-auto'>
+              <div className='flex h-[500px] py-auto'>
                 <div className='flex-col pl-32 pr-16 mt-10'>
                   <p className='text-white text-base mt-10 tracking-widest'>ABOUT</p>
                   <h1 className='text-white text-5xl font-bold mt-5'>Being Bravas</h1>
