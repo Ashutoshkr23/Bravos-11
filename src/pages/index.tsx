@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   return (
     <div >
       <Head>
-        <title>BRAVAS DIGIITAL</title>
+        <title>BRAVAS DIGITAL</title>
         <link rel="icon" href="/Favicon.png" />
       </Head>
       <Navbar/>
