@@ -10,7 +10,7 @@ function Navbar() {
       <div>
           {/*Laptop */}
           <div className='hidden bg-dark lg:block'>
-              <div className='navbar z-50 fixed inset-x-0 bg-dark opacity-90'>
+              <div className='navbar z-50 fixed inset-x-0 bg-dark opacity-95'>
                   <div className='mx-32 my-auto h-20 flex content-center justify-between' >
                       <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-12 w-28 my-auto" />
                       <div className='flex content-center'>
