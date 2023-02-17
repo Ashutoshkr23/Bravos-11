@@ -5,7 +5,7 @@ function About() {
   const [setNewImageURL, setsetNewImageURL] = useState("/assets/images/about/Laptop-1.png")
   function scrollAndResizeEventListener() {
     // For Screen Width >700
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY > 1048) {
       setsetNewImageURL("/assets/images/about/Laptop-2.png");
     } else if (window.scrollY < 1048) {
@@ -41,7 +41,7 @@ function About() {
                   <h1 className='text-white text-5xl font-bold mt-5'>What  makes us stand out?</h1>
                   <p className='text-white text-lg font-light mt-8'>We are creative mavericks who thrive on
                   </p>
-                  <div className='flex flex-row gap-8 mt-12'>
+                  <div className='flex flex-row gap-8 mt-12 mb-12'>
                     <div className='flex flex-col'>
                       <img src="/assets/images/about/Collaboration.png" alt="" className='h-[46px] w-[46px]' />
                       <p className='text-white text-lg font-bold mt-2 '>Collaboration
@@ -58,7 +58,7 @@ function About() {
                       </p>
                     </div>
                   </div>
-                  <p className='text-white text-lg font-light w-[440px]'>More than your regular dreamers; we are achievers and we work hard & smart to deliver excellence each time.
+                  <p className='text-white text-lg font-light w-[440px] mb-6'>More than your regular dreamers; we are achievers and we work hard & smart to deliver excellence each time.
                     We try to go the extra mile because we believe in us.
                   </p>
                 </div>
