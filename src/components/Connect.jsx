@@ -10,7 +10,7 @@ function Connect() {
             <img
               src="/assets/images/connect/Connect.png"
               alt="Sample Image"
-              className="h-full object-cover"
+              className="h-full w-full"
             />
             <div className='absolute w-full inset-0 flex items-center justify-center  h-full px-4'>
               <div className='my-auto mx-10'>
