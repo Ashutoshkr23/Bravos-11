@@ -9,10 +9,10 @@ function Navbar() {
   return (
       <div>
           {/*Laptop */}
-          <div className='hidden lg:block'>
-              <div className='navbar z-50 fixed inset-x-0 bg-dark'>
-                  <div className='mx-32 my-auto h-28 flex content-center justify-between' >
-                      <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-20 w-44 my-auto" />
+          <div className='hidden bg-dark lg:block'>
+              <div className='navbar z-50 fixed inset-x-0 bg-dark opacity-90'>
+                  <div className='mx-32 my-auto h-20 flex content-center justify-between' >
+                      <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-12 w-28 my-auto" />
                       <div className='flex content-center'>
                           <ul className="flex content-center my-auto ">
                               <li className="text-white text- px-1.5 hover:font-bold font-light"><a href={`#about`}>About</a></li>
