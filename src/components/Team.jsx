@@ -39,7 +39,7 @@ function Team() {
                                           designation={"Advisor"}
                                           name={"SANDEEP TELANG"}
                                           tagline={"Working up my way up Maslow’s pyramid"}
-                                          linkedin={""} />
+                                          linkedin={"https://www.linkedin.com/in/sandeeptelang/"} />
                                   </div>
                               </div>
                               <div className='flex mx-auto gap-10 justify-center mt-10'>
@@ -140,7 +140,7 @@ function Team() {
                                   designation={"Advisor"}
                                   name={"SANDEEP TELANG"}
                                   tagline={"Working up my way up Maslow’s pyramid"}
-                                  linkedin={""} />
+                                  linkedin={"https://www.linkedin.com/in/sandeeptelang/"} />
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Krishna.png"}

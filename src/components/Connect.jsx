@@ -23,7 +23,7 @@ function Connect() {
               </div>
             </div>
           </div>
-          <button class="bg-blue-1 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16 items-center mx-auto">
+          <button className="bg-blue-1 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16 items-center mx-auto">
             CONNECT WITH US
           </button>
         </div> 
@@ -52,7 +52,7 @@ function Connect() {
           </div>
         </div>
         
-        <button class="bg-blue-1 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16  items-center mx-auto">
+        <button className="bg-blue-1 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16  items-center mx-auto">
           CONNECT WITH US
         </button>
         <img src="/assets/images/connect/Send-img.png" alt="Send-img" className='sticky bottom-0' />
