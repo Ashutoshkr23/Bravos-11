@@ -13,7 +13,7 @@ const Slider = () => {
     
     return (
         <div className="relative overflow-hidden w-full ">
-            <div className='hidden lg:block'>
+            <div className='hidden lg:block text-center'>
                 <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50}  slidesPerView={3} navigation pagination={{ clickable: true }} >
                     <SwiperSlide >
                         <TestimonialComp
@@ -114,7 +114,7 @@ const Slider = () => {
                 </Swiper>
             </div>
             {/*Mobiles*/}
-            <div className='md:hidden'>
+            <div className='md:hidden text-center'>
                 <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50} slidesPerView={1} centeredSlides={true} navigation pagination={{ clickable: true }} >
                     <SwiperSlide >
                         <TestimonialComp

@@ -9,7 +9,7 @@ function Navbar() {
   return (
       <div>
           {/*Laptop */}
-          <div className='hidden bg-dark lg:block'>
+          <div className='hidden bg-dark lg:block '>
               <div className='navbar z-50 fixed inset-x-0 bg-dark opacity-95'>
                   <div className='mx-32 my-auto h-20 flex content-center justify-between' >
                       <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-12 w-28 my-auto" />
@@ -66,7 +66,7 @@ function Navbar() {
               </div>
           </div>*/}
           <div className='lg:hidden '>
-          <nav className="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0   ">
+          <nav className="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0">
               <div className="container flex flex-wrap items-center justify-between mx-auto">
                   <a href="#" className="flex items-center">
                       <img src="/assets/images/navbar/Logo.png" className="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
@@ -83,7 +83,7 @@ function Navbar() {
                               <div className="py-1 px-4 ">
                                   <a
                                       href="#about"
-                                      className="block px-4  py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
+                                      className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
                                   >
                                       About
                                   </a>

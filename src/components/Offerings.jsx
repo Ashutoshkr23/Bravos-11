@@ -28,7 +28,7 @@ function Offerings() {
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='invisible' /></div>
           <div className='w-10/12 mx-auto'><div className='py-20'>
             <div>
-              <p className='text-black font-light text-base text-center tracking-widest'>SERVICES</p>
+              <p className='text-black font-bold text-base text-center tracking-widest'>SERVICES</p>
               <h1 className='text-black font-bold text-5xl text-center mt-5'>WE OFFER</h1>
             </div>
             <motion.div
@@ -115,7 +115,7 @@ function Offerings() {
             <div className='w-10/12'>   
               <div className=' py-6 '>
               <div>
-                <p className='text-black font-light text-xs sm:text-sm text-center tracking-widest'>SERVICES</p>
+                <p className='text-black font-bold text-xs sm:text-sm text-center tracking-widest'>SERVICES</p>
                 <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>WE OFFER</h1>
               </div>
               <div className='flex mt-12 gap-4 grow-1 sm:gap-10 mx-auto px-auto justify-center '>

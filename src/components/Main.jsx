@@ -6,7 +6,7 @@ function Main() {
     return (
     
         <div className='main bg-dark'>
-            <div className='mx-8 sm:mx-16 lg:mx-32 pt-32 pb-16'>
+            <div className='mx-8 sm:mx-16 lg:mx-32 pt-32 lg:pt-48 pb-16'>
                 <h1 className="text-[28px] sm:text-4xl lg:text-6xl text-blue-2 font-bold text-center" style={{ backgroundImage: `url('/assets/images/main/hero-text-bg1.png')`, backgroundClip: 'text', WebkitBackgroundClip: 'text' }}>READY TO TAKE ON MARKETING PROBLEMS LIKE IT'S OUR EVERYDAY BUISNESS.</h1>
 
                 <h2 className='text-2xl sm:text-3xl lg:text-5xl text-white font-bold text-center mt-10 mb-10'>HONESTLY, IT IS.</h2>

@@ -23,7 +23,7 @@ function Partners() {
           </div>
           <div >
             <div className=" px-28 py-28">
-              <p className="text-white -ml-20 font-light text-base tracking-widest">WORK</p>
+              <p className="text-white -ml-20 font-bold text-base tracking-widest">WORK</p>
               <h1 className="text-white -ml-20 font-bold text-5xl mt-5">
                 PARTNERS IN PROGRESS
               </h1>
@@ -61,7 +61,7 @@ function Partners() {
                       className="mx-auto h-[147px] w-[147px]"
                     />
                     <h3 className="mt-14 text-center font-bold text-lg px-16">
-                      BUISNESS AND BEYOND
+                      BUSINESS AND BEYOND
                     </h3>
                     <div className="flex justify-center">
                       <button
@@ -94,7 +94,7 @@ function Partners() {
           <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' /></div>
           <div>
             <div className='py-16'>
-            <p className='text-white  font-light text-xs sm:text-sm tracking-widest'>WORK</p>
+            <p className='text-white  font-bold text-xs sm:text-sm tracking-widest'>WORK</p>
             <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
             <div className='mt-20  w-3/5 bg-white rounded-md py-10 mx-auto '>
               <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
@@ -113,7 +113,7 @@ function Partners() {
             </div>
             <div className='mt-20 w-3/5 bg-white rounded-md py-10 mx-auto '>
               <img src="/assets/images/partner/BAB.png" alt="CC" className=' w-2/5 mx-auto' />
-              <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUISNESS AND BEYOND</h3>
+              <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>BUSINESS AND BEYOND</h3>
             </div>
             <div className='w-full h-full mt-8 flex justify-center items-center bg-transparent bg-opacity-50 z-40'>
               <div className='w-4/5 bg-white h-full '>
