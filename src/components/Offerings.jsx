@@ -4,22 +4,22 @@ import { motion, ease } from 'framer-motion';
 
 function Offerings() {
 
-  const fadeDown = {
-    initial: {
-      y: 50,
-      opacity: 0.8
-    },
-    exit: {
-      y: 0,
-    },
-    animate: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1,
-      }
-    }
-  }
+  // const fadeDown = {
+  //   initial: {
+  //     y: 50,
+  //     opacity: 0.8
+  //   },
+  //   exit: {
+  //     y: 0,
+  //   },
+  //   animate: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       duration: 1,
+  //     }
+  //   }
+  // }
   return (
       <div id='services'>
         {/*Laptop */}
@@ -31,9 +31,9 @@ function Offerings() {
               <p className='text-black font-bold text-base text-center tracking-widest'>SERVICES</p>
               <h1 className='text-black font-bold text-5xl text-center mt-5'>WE OFFER</h1>
             </div>
-            <motion.div
+            {/* <motion.div
               transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
-            >
+            > */}
               <div className='flex mx-auto gap-10 justify-center mt-10'>
                 <div>
                   <OfferingComp
@@ -54,11 +54,11 @@ function Offerings() {
                     img={'/assets/images/offerings/img-3.png'} />
                 </div>
               </div>
-            </motion.div>
-            <motion.div
+            {/* </motion.div> */}
+            {/* <motion.div
               transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
 
-            >
+            > */}
               <div className='flex mx-auto gap-10 justify-center mt-16'>
                 <div>
                   <OfferingComp title={"Search Engine Optimization"}
@@ -76,10 +76,10 @@ function Offerings() {
                     img={'/assets/images/offerings/img-6.png'} />
                 </div>
               </div>
-            </motion.div>
-            <motion.div
+            {/* </motion.div> */}
+            {/* <motion.div
               transition={{ duration: 0.3 }} variants={fadeDown} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.8 }}
-            >
+            > */}
               <div className='flex mx-auto gap-10 justify-center mt-16'>
                 <div>
                   <OfferingComp title={"Influencer Outreach"}
@@ -97,7 +97,7 @@ function Offerings() {
                     img={'/assets/images/offerings/img-9.png'} />
                 </div>
               </div>
-            </motion.div>
+            {/* </motion.div> */}
 
 
 

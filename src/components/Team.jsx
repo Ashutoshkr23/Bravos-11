@@ -84,7 +84,7 @@ function Team() {
                                       <TeamComp img={"./assets/images/team/Mahek1.png"}
                                           designation={"Digital Marketing Excutive"}
                                           name={"MAHEK SACHDEVA"}
-                                          tagline={"The 3 Cs of Success : Commitment, Consistency and Confidence"} 
+                                          tagline={"The 3 C's of Success : Commitment, Consistency and Confidence"} 
                                           linkedin={"https://www.linkedin.com/in/mahek-sachdeva-3b93a0235"}/>
                                   </div>
                               </div>
@@ -181,7 +181,7 @@ function Team() {
                               <TeamComp img={"./assets/images/team/Mahek1.png"}
                                   designation={"Digital Marketing Excutive"}
                                   name={"MAHEK SACHDEVA"}
-                                  tagline={"The 3 Cs of Success : Commitment, Consistency and Confidence"}
+                                  tagline={"The 3 C's of Success : Commitment, Consistency and Confidence"}
                                   linkedin={"https://www.linkedin.com/in/mahek-sachdeva-3b93a0235"} />
                           </div>
                           <div>
