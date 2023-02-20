@@ -20,7 +20,7 @@ function Team() {
                                       <TeamComp
                                           img={"./assets/images/team/Sid.png"}
                                           designation={"CEO"}
-                                          name={"SIDDHART NAIR"}
+                                          name={"SIDDHARTH NAIR"}
                                           tagline={"A bearded corporate fixer"}
                                           linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
                                           mail={"siddharth@bravasdigital.com"} />
@@ -121,7 +121,7 @@ function Team() {
                               <TeamComp
                                   img={"./assets/images/team/Sid.png"}
                                   designation={"CEO"}
-                                  name={"SIDDHART NAIR"}
+                                  name={"SIDDHARTH NAIR"}
                                   tagline={"A bearded corporate fixer"} 
                                   linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
                                   mail={"siddharth@bravasdigital.com"}/>
@@ -133,7 +133,7 @@ function Team() {
                                   name={"VAISHNAV"}
                                   tagline={"Work. Invest. Explore in that order"}
                                   linkedin={"https://www.linkedin.com/in/vaishnav-manav/"}
-                                  mail={""} />
+                                  mail={"vaishnav@bravasdigital.com"} />
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Sandeep.png"}
