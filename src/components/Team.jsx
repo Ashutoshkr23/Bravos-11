@@ -82,7 +82,7 @@ function Team() {
                                   </div>
                                   <div>
                                       <TeamComp img={"./assets/images/team/Mahek1.png"}
-                                          designation={"Digital Marketing Excutive"}
+                                          designation={"Digital Marketing Executive"}
                                           name={"MAHEK SACHDEVA"}
                                           tagline={"The 3 C's of Success : Commitment, Consistency and Confidence"} 
                                           linkedin={"https://www.linkedin.com/in/mahek-sachdeva-3b93a0235"}/>
@@ -91,7 +91,7 @@ function Team() {
                               <div className='flex mx-auto gap-10 justify-center mt-10'>
                                   <div>
                                       <TeamComp img={"./assets/images/team/Rishita1.png"}
-                                          designation={"Digital Marketing Excutive"}
+                                          designation={"Digital Marketing Executive"}
                                           name={"RISHITA HAREL"}
                                           tagline={"Self-belief and Hard work will always earn you success"} 
                                           linkedin={"https://www.linkedin.com/in/rishita-harel-77b672207"}/>
@@ -179,14 +179,14 @@ function Team() {
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Mahek1.png"}
-                                  designation={"Digital Marketing Excutive"}
+                                  designation={"Digital Marketing Executive"}
                                   name={"MAHEK SACHDEVA"}
                                   tagline={"The 3 C's of Success : Commitment, Consistency and Confidence"}
                                   linkedin={"https://www.linkedin.com/in/mahek-sachdeva-3b93a0235"} />
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Rishita1.png"}
-                                  designation={"Digital Marketing Excutive"}
+                                  designation={"Digital Marketing Executive"}
                                   name={"RISHITA HAREL"}
                                   tagline={"Self-belief and Hard work will always earn you success"}
                                   linkedin={"https://www.linkedin.com/in/rishita-harel-77b672207"} />
