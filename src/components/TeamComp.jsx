@@ -17,7 +17,7 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
                   <a href={linkedin} target="_blank">
                     <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
                   </a>
-                  {(name === "SIDDHART NAIR" || name === "VAISHNAV") &&(
+                  {(name === "SIDDHART NAIR" || name === "VAISHNAV MANAV") &&(
                     <a href={`mailto:${mail}`} target="_blank">
                       <img src="/assets/images/team/Mail.png" alt="Example Image" className='mt-auto' />
                     </a>
@@ -46,7 +46,7 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
                 <a href={linkedin} target="_blank">
                     <img src="/assets/images/team/Linkedin.png" alt="Example Image" />
                   </a>
-                {(name === "SIDDHART NAIR" || name === "VAISHNAV") && (
+                {(name === "SIDDHART NAIR" || name === "VAISHNAV MANAV") && (
                   <a href={`mailto:${mail}`} target="_blank">
                     <img src="/assets/images/team/Mail.png" alt="Example Image" className='ml-24' />
                   </a>

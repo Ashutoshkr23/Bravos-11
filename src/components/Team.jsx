@@ -29,7 +29,7 @@ function Team() {
                                       <TeamComp
                                           img={"./assets/images/team/Vaishnav.png"}
                                           designation={"COO"}
-                                          name={"VAISHNAV"}
+                                          name={"VAISHNAV MANAV"}
                                           tagline={"Work. Invest. Explore in that order"}
                                           linkedin={"https://www.linkedin.com/in/vaishnav-manav/"}
                                           mail={"vaishnav@bravasdigital.com"} />
@@ -130,7 +130,7 @@ function Team() {
                               <TeamComp
                                   img={"./assets/images/team/Vaishnav.png"}
                                   designation={"COO"}
-                                  name={"VAISHNAV"}
+                                  name={"VAISHNAV MANAV"}
                                   tagline={"Work. Invest. Explore in that order"}
                                   linkedin={"https://www.linkedin.com/in/vaishnav-manav/"}
                                   mail={"vaishnav@bravasdigital.com"} />
