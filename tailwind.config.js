@@ -21,7 +21,7 @@ module.exports = {
         'blue-2': 'rgba(92, 184, 228, .4)',
       },
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+        sans: ['Gotham', 'sans-serif'],
         
       },
       backgroundImage: {
