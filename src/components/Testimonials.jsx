@@ -7,7 +7,7 @@ function Testimonials() {
       <img src="/assets/images/testimonial/Comma-up.png" alt="comma" className='absolute w-1/4 ' />
       <div >
         <div className='py-6 md:pt-10 lg:pt-16'>
-          <div className='pl-5 md:pl-10 lg:pl-36'>
+          <div className='pl-5 md:pl-10 lg:pl-36 relative'>
             <p className='text-black font-light text-[10px]  md:text-xs lg:text-base  tracking-widest'>TESTIMONIALS</p>
             <h1 className='text-black font-bold  text-3xl lg:text-5xl mt-5'>CLIENT SAYS</h1>
           </div>
