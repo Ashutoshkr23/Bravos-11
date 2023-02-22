@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion, ease } from 'framer-motion';
+
 
 function OfferingComp({img ,title, description}) {
 

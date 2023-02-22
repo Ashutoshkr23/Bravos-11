@@ -1,6 +1,6 @@
 import React from 'react'
 import OfferingComp from './OfferingComp'
-import { motion, ease } from 'framer-motion';
+
 
 function Offerings() {
 

@@ -30,15 +30,15 @@ function About() {
             <div className='flex-col mx-auto'>
               <div className='flex h-[600px] py-auto'>
                 <div className='flex-col pl-32 pr-16 mt-10'>
-                  <p className='text-white text-base mt-10 tracking-widest font-bold'>ABOUT</p>
-                  <h1 className='text-white text-5xl font-bold mt-5'>Being Bravas</h1>
+                  <p className='text-white text-base mt-10 tracking-widest '>ABOUT</p>
+                  <h1 className='text-white text-5xl font-bold mt-5'>BEING BRAVAS</h1>
                   <p className='text-white text-lg font-light mt-8'>No room for uncertainty.</p>
                   <p className='text-white text-lg font-light mt-4'>That's our mantra to be a one-of-a-kind company in the digital space.</p>
                 </div>
               </div>
               <div className='flex h-full py-auto mx-auto '>
                 <div className='flex-col pl-32 pr-16  '>
-                  <h1 className='text-white text-5xl font-bold mt-5'>What  makes us stand out?</h1>
+                  <h1 className='text-white text-5xl font-bold mt-5'>WHAT MAKES US STAND OUT?</h1>
                   <p className='text-white text-lg font-light mt-8'>We are creative mavericks who thrive on
                   </p>
                   <div className='flex flex-row gap-8 mt-12 mb-12'>
