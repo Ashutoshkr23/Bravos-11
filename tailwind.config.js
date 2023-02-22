@@ -21,8 +21,8 @@ module.exports = {
         'blue-2': 'rgba(92, 184, 228, .4)',
       },
       fontFamily: {
-        sans: ['Gotham', 'sans-serif'],
-        
+        gotham: ['Gotham', 'sans-serif'],
+        sans: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         'Connect': "url('/assets/images/connect/Connect.png')",
