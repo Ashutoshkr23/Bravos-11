@@ -7,9 +7,9 @@ function About() {
     // For Screen Width >700
     // console.log(window.scrollY);
     if (window.scrollY > 1048) {
-      setsetNewImageURL("/assets/images/about/Laptop-2.png");
-    } else if (window.scrollY < 1048) {
       setsetNewImageURL("/assets/images/about/Laptop-1.png");
+    } else if (window.scrollY < 1048) {
+      setsetNewImageURL("/assets/images/about/Laptop-2.png");
     }
   }
 
