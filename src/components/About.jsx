@@ -3,13 +3,16 @@ import React, { useEffect, useState } from 'react'
 function About() {
 
   const [setNewImageURL, setsetNewImageURL] = useState("/assets/images/about/Laptop-1.png")
+  const [shadow, setShadow] = useState("drop-shadow-blue")
   function scrollAndResizeEventListener() {
     // For Screen Width >700
     // console.log(window.scrollY);
     if (window.scrollY > 1048) {
       setsetNewImageURL("/assets/images/about/Laptop-1.png");
+      setShadow("drop-shadow-green");
     } else if (window.scrollY < 1048) {
       setsetNewImageURL("/assets/images/about/Laptop-2.png");
+      setShadow("drop-shadow-blue");
     }
   }
 
@@ -66,7 +69,7 @@ function About() {
             </div>
           </div>
           <div>
-            <img src={setNewImageURL} alt="laptop-image" className='  drop-shadow-blue w-full h-auto sticky top-10' />
+            <img src={setNewImageURL} alt="laptop-image" className={`drop-shadow-blue w-full h-auto sticky top-20 ${shadow}`} />
           </div>
         </div>
         
