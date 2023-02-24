@@ -10,7 +10,7 @@ function Buisness({ open2 , setOpen2  }) {
             <div className='w-1/2 bg-white z-30  '>
                 <div className="grid grid-cols-5 " >
                     {logo.map((logo, index) => (
-                        <div key={index} className="border px-2 py-2 border-blue-500">
+                        <div key={index} className="border px-2 py-2 border-green-2">
                             <img src={logo} alt={`Logo ${index}`} className="w-full object-contain h-full" />
                         </div>
                     ))}
