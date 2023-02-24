@@ -125,7 +125,7 @@ function Partners() {
               </div>
             </div>
           </div></div>
-          <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='sticky top-0' /></div>
+          <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' /></div>
         </div>
       </div>
     </div>
