@@ -110,7 +110,8 @@ function Offerings() {
         </div>
         {/*Mobiles*/}
         <div>
-        <div className='md:hidden bg-white-1'>
+        <div className='md:hidden relative bg-white-1'>
+          <img src="/assets/images/offerings/hand.png" alt="bulb" className='absolute bottom-0 w-3/4' />
           <div className='flex justify-between'>
             <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 invisible' /></div>
             <div className='w-10/12'>   
@@ -157,7 +158,7 @@ function Offerings() {
                 </div>
               </div>
             </div></div>
-            <div className='w-1/6'><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 sticky top-0' /></div>
+            <div className='w-12'><img src="/assets/images/offerings/Bulb.png" alt="bulb" className=' h-36 sm:48 w-10 sm:w-14 sticky top-0 right-0' /></div>
           </div>
        
         </div>
