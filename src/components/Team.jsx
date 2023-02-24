@@ -8,7 +8,7 @@ function Team() {
         backgroundPosition: 'center'
     };
   return (
-    <div className='bg-blue-1 relative  ' id='team'>
+    <div className=' relative  ' id='team'>
           {/*Laptop */}
           <div className='hidden lg:block ' style={divStyle}>
                 <img src="./assets/images/team/Laptop-team.png" alt="team" className='absolute -top-10 right-0' />

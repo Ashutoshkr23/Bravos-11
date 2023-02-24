@@ -72,7 +72,7 @@ function Navbar() {
                       <img src="/assets/images/navbar/Logo.png" className="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
                   </a>
                   <div className="flex ">
-                      <button className='h-10 btn w-28 ml-12 rounded text-white border border-white hover:bg-blue-1 hover:border-none hover:font-bold my-auto mr-4'>Get in Touch</button>
+                      <button className='h-10 btn w-28 ml-12 rounded text-white border border-white hover:bg-green-2 hover:border-none hover:font-bold my-auto mr-4'>Get in Touch</button>
                       <button
                           onClick={() => setIsOpen(!isOpen)}
                           type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">

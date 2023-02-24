@@ -50,7 +50,7 @@ function Partners() {
                         onClick={() => {
                           setOpen1(true);
                         }}
-                        className="mt-10 bg-blue-1 w-32 h-12 rounded-sm text-black text-base text-center tracking-widest drop-shadow-button"
+                        className="mt-10 bg-green-2 w-32 h-12 rounded-sm text-black text-base text-center tracking-widest drop-shadow-button"
                       >
                         VIEW
                       </button>
@@ -75,7 +75,7 @@ function Partners() {
                         onClick={() => {
                           setOpen2(true);
                         }}
-                        className="mt-10 bg-blue-1 w-32 h-12 rounded-sm text-black text-base text-center tracking-widest drop-shadow-button"
+                        className="mt-10 bg-green-2 w-32 h-12 rounded-sm text-black text-base text-center tracking-widest drop-shadow-button"
                       >
                         VIEW
                       </button>
