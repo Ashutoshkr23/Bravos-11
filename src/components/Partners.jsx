@@ -10,17 +10,18 @@ function Partners() {
 
   const logo = ['/assets/images/buisness/image1.png', '/assets/images/buisness/image2.png', '/assets/images/buisness/image3.png', '/assets/images/buisness/image4.png', '/assets/images/buisness/image5.png', '/assets/images/buisness/image6.png', '/assets/images/buisness/image7.png', '/assets/images/buisness/image8.png', '/assets/images/buisness/image9.png', '/assets/images/buisness/image10.png', '/assets/images/buisness/image11.png', '/assets/images/buisness/image12.png', '/assets/images/buisness/image13.png', '/assets/images/buisness/image14.png', '/assets/images/buisness/image15.png', '/assets/images/buisness/image16.png', '/assets/images/buisness/image17.png', '/assets/images/buisness/image18.png', '/assets/images/buisness/image19.png', '/assets/images/buisness/image20.png',];
 
-  
+  const divStyle = {
+    backgroundImage: 'url(./assets/images/partner/Work-bg.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  };
 
   
   return (
-    <div className="bg-dark" id='work'>
+    <div className="bg-dark" id='work' style={divStyle}>
       {/* Laptop */}
       <div className='hidden lg:block'>
-        <div className=' flex justify-between'>
-          <div>
-            <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' />
-          </div>
+        <div className=' flex justify-center '>
           <div >
             <div className=" px-28 py-28">
               <p className="text-white -ml-20 font-light opacity-60 text-base tracking-widest">WORK</p>
@@ -78,9 +79,6 @@ function Partners() {
                 </div>
               </div>
             </div>
-          </div>
-          <div>
-            <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='sticky top-0' />
           </div>
         </div>
       </div>

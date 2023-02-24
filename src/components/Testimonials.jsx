@@ -2,8 +2,14 @@ import React from 'react'
 import Slider from './Slider'
 
 function Testimonials() {
+  const divStyle = {
+    backgroundImage: 'url(./assets/images/testimonial/Testimonial-bg.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  };
+
   return (
-    <div className='bg-blue-1' id='testimonials'>
+    <div className='bg-blue-1' id='testimonials' style={divStyle}>
       <img src="/assets/images/testimonial/Comma-up.png" alt="comma" className='absolute w-1/4 ' />
       <div >
         <div className='py-6 md:pt-10 lg:pt-16'>
