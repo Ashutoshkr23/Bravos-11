@@ -34,18 +34,21 @@
     src: url('/assets/Fonts/GothamBook.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gotham';
     src: url('/assets/Fonts/GothamBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gotham';
     src: url('/assets/Fonts/GothamLight.woff') format('woff');
     font-weight: light;
     font-style: normal;
+    font-display: swap;
 }
 
 html {
