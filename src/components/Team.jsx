@@ -106,7 +106,7 @@ function Team() {
                       </div>
                   </div>
               </div>
-              <img src="/assets/images/team/Puzzle.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
+              <img src="/assets/images/team/Keyboard.png" alt="puzzle-block" className='absolute bottom-10 left-0 mix-blend-multiply' />
          
           </div>
           {/*Mobiles-lg*/}
