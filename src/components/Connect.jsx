@@ -27,7 +27,7 @@ function Connect() {
             CONNECT WITH US
           </button>
         </div> 
-        <img src="/assets/images/connect/Send-img.png" alt="Send-img" className='sticky bottom-0' /> 
+        <img src="/assets/images/connect/send-1.png" alt="Send-img" className='sticky bottom-0 mr-10' /> 
       </div>
 
       {/* Mobiles */}

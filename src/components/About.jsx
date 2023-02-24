@@ -74,7 +74,7 @@ function About() {
         </div>
         
         
-        <p className='text-center text-5xl text-white my-24'>WE ARE <span className='font-bold text-blue-1'>BRAVE.</span>  WE ARE <span className='font-bold text-blue-1'>BRAVAS.</span></p>
+        <p className='text-center text-5xl text-white my-24'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
       </div>
       {/*Mobiles*/}
       <div className='lg:hidden mx-4 sm:mx-10'>
@@ -121,7 +121,7 @@ function About() {
             <img src="/assets/images/about/Laptop-2.png" alt="laptop-image" className=' drop-shadow-green' />
           </div>
         </div>
-        <p className='text-center text-xl md:text-2xl text-white mt-12'>WE ARE <span className='font-bold text-blue-1'>BRAVE.</span>  WE ARE <span className='font-bold text-blue-1'>BRAVAS.</span></p>
+        <p className='text-center text-xl md:text-2xl text-white mt-12'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
 
       </div>
       

@@ -20,7 +20,8 @@ module.exports = {
         'blue-2': '#5CDCE4',
         'white-1': '#f5f5fa',
         'blue-2': 'rgba(92, 184, 228, .4)',
-        'green': 'rgba(106, 226, 199, .5)'
+        'green': 'rgba(106, 226, 199, .5)',
+        'green-2': 'rgba(106, 226, 199, 1)'
       },
       fontFamily: {
         gotham: ['Gotham', 'sans-serif'],
