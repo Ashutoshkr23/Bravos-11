@@ -2,13 +2,18 @@ import React from 'react'
 import TeamComp from './TeamComp'
 
 function Team() {
+    const divStyle = {
+        backgroundImage: 'url(./assets/images/team/Team-Bg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+    };
   return (
     <div className='bg-blue-1 relative  ' id='team'>
           {/*Laptop */}
-          <div className='hidden lg:block'>
+          <div className='hidden lg:block ' style={divStyle}>
+                <img src="./assets/images/team/Laptop-team.png" alt="team" className='absolute -top-10 right-0' />
               <div className='flex justify-between'>
-                  <div className='w-48'><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='invisible' /></div>
-                  <div className='w-4/5'>
+                  <div className='w-4/5 mx-auto'>
                       <div className='py-16'>
                           <div>
                               <div>
@@ -100,7 +105,6 @@ function Team() {
                           </div>
                       </div>
                   </div>
-                  <div className='w-48'><img src="/assets/images/team/Pencil.png" alt="pencil-image" className='sticky top-0' /></div>
               </div>
               <img src="/assets/images/team/Puzzle.png" alt="puzzle-block" className='absolute -bottom-6 left-16 ' />
          
