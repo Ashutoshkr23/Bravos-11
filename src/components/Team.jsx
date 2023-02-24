@@ -12,7 +12,7 @@ function Team() {
                       <div className='py-16'>
                           <div>
                               <div>
-                                  <p className='text-black font-bold text-base text-center tracking-widest'>TEAM</p>
+                                  <p className='text-black font-bold text-base text-center opacity-60 tracking-widest'>TEAM</p>
                                   <h1 className='text-black font-bold text-5xl text-center mt-5'>MEET THE TEAM</h1>
                               </div>
                               <div className='flex mx-auto gap-10 justify-center mt-16'>
@@ -113,7 +113,7 @@ function Team() {
               <div className='py-16'>
                   <div>
                       <div>
-                          <p className='text-black font-bold text-xs sm:text-sm text-center tracking-widest'>TEAM</p>
+                          <p className='text-black font-bold text-xs sm:text-sm text-center tracking-widest opacity-60'>TEAM</p>
                           <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>MEET THE TEAM</h1>
                       </div>
                       <div className='grid grid-cols-2 mx-6 sm:mx-12 gap-y-10 gap-x-4  mt-10 justify-items-center'>

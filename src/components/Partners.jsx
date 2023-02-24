@@ -23,7 +23,7 @@ function Partners() {
           </div>
           <div >
             <div className=" px-28 py-28">
-              <p className="text-white -ml-20 font-bold text-base tracking-widest">WORK</p>
+              <p className="text-white -ml-20 font-light opacity-60 text-base tracking-widest">WORK</p>
               <h1 className="text-white -ml-20 font-bold text-5xl mt-5">
                 PARTNERS IN PROGRESS
               </h1>
@@ -94,8 +94,8 @@ function Partners() {
           <div> <img src="/assets/images/partner/Hanging-Bulb.png" alt="" className='invisible' /></div>
           <div>
             <div className='py-16'>
-            <p className='text-white  font-bold text-xs sm:text-sm tracking-widest'>WORK</p>
-            <h1 className='text-white font-bold text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
+            <p className='text-white  font-bold text-xs sm:text-sm tracking-widest opacity-60'>WORK</p>
+            <h1 className='text-white font-light text-2xl sm:text-3xl mt-2 w-56'>PARTNERS IN PROGRESS</h1>
             <div className='mt-20  w-3/5 bg-white rounded-md py-10 mx-auto '>
               <img src="/assets/images/partner/CC.png" alt="CC" className='mx-auto  w-2/5' />
               <h3 className='mt-4 text-center font-bold text-xs sm:text-xl px-8'>CUSTOMER CONNECTIONS</h3>
