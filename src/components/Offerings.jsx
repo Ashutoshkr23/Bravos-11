@@ -24,7 +24,7 @@ function Offerings() {
       <div id='services'>
         {/*Laptop */}
       <div className='hidden md:block relative bg-white-1 ' >
-        <img src="/assets/images/offerings/hand.png" alt="bulb" className='absolute bottom-0' />
+        <img src="/assets/images/offerings/hand.png" alt="bulb" className='absolute bottom-0 w-2/3 lg:w-1/2' />
         <div className='flex'>
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='invisible' /></div>
           <div className='w-10/12 mx-auto'>
