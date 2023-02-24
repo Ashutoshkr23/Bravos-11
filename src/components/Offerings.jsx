@@ -24,9 +24,11 @@ function Offerings() {
       <div id='services'>
         {/*Laptop */}
       <div className='hidden md:block bg-white-1 ' >
+        <img src="/assets/images/offerings/hand.png" alt="bulb" className='invisible absolute' />
         <div className='flex'>
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='invisible' /></div>
-          <div className='w-10/12 mx-auto'><div className='py-20'>
+          <div className='w-10/12 mx-auto'>
+            <div className='py-20'>
             <div>
               <p className='text-black font-bold opacity-60 text-base text-center tracking-widest'>SERVICES</p>
               <h1 className='text-black font-bold text-5xl text-center mt-5'>WE OFFER</h1>
@@ -104,7 +106,6 @@ function Offerings() {
           </div></div>
           <div><img src="/assets/images/offerings/Bulb.png" alt="bulb" className='sticky top-0' /></div>
         </div>
-        
         
         </div>
         {/*Mobiles*/}
