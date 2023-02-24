@@ -83,7 +83,7 @@ function Team() {
                                           designation={"SEO Lead"}
                                           name={"SOURABH RAUL"}
                                           tagline={"Empowering online visibility"}
-                                          linkedin={""} />
+                                          linkedin={"#"} />
                                   </div>
                                   <div>
                                       <TeamComp img={"./assets/images/team/Mahek1.png"}
@@ -180,7 +180,7 @@ function Team() {
                                   designation={"SEO Lead"}
                                   name={"SOURABH RAUL"}
                                   tagline={"Empowering online visibility"}
-                                  linkedin={""} />
+                                  linkedin={"#"} />
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Mahek1.png"}
