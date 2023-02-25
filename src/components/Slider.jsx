@@ -19,7 +19,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Anil.png"}
                             feedback={"The Bravas Digital team is highly responsive and is very quick on the uptake of our ever-evolving business strategies. They are an excellent partner for your digital communication requirements."}
-                            name={"Siddharth Nair"}
+                            name={"Anil Nair"}
                             designation={"Co-Founder, Goodwind Mototours"}
                         />
                     </SwiperSlide>
@@ -27,14 +27,14 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Sachi.png"}
                             feedback={"Every member of Bravas Digital treats my brand as their own brainchild. They understand our objectives and make sure all tasks are aligned accordingly. Highly recommend them for growing brands."}
-                            name={"SUCHI SANDHU"}
+                            name={"Suchi Sandhu"}
                             designation={"Managing Director, Sweet Stuff Private Limited "} />
                     </SwiperSlide>
                     <SwiperSlide >
                         <TestimonialComp
                             img={"assets/images/testimonial/Xerrxes.png"}
                             feedback={"We have been associated with Bravas Digital for the past 2 years. With an eye on ingenuity, they have consistently provided good creatives through this period."}
-                            name={"XERRXEX MASTER"}
+                            name={"Xerrxes Master"}
                             designation={"President, Association of Multimodal Transport Operators of India [AMTOI]"}
                         />
                     </SwiperSlide>
@@ -42,7 +42,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Vineet.png"}
                             feedback={"We have been very impressed with their creativity, responsiveness and capabilities in the remodelling of our company logo, creatives for our website and social media. "}
-                            name={"Vineet Singhal,"}
+                            name={"Vineet Singhal"}
                             designation={" Chief Operating Officer, SGN Nanopharma Inc."} />
                     </SwiperSlide>
                     <SwiperSlide >
@@ -56,7 +56,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Rikshit.png"}
                             feedback={"As a start-up, it's great to have someone like the Bravas Digital Team to rely on our marketing efforts. They have a wonderful team of experts taking care of all the different aspects of marketing."}
-                            name={"Rikshit Kotian,"}
+                            name={"Rikshit Kotian"}
                             designation={"Director - Business Development, Verraton Health Private Limited"} />
 
                     </SwiperSlide>
@@ -70,7 +70,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Anil.png"}
                             feedback={"The Bravas Digital team is highly responsive and is very quick on the uptake of our ever-evolving business strategies. They are an excellent partner for your digital communication requirements."}
-                            name={"Siddharth Nair"}
+                            name={"Anil Nair"}
                             designation={"Co-Founder, Goodwind Mototours"}
                         />
                     </SwiperSlide>
@@ -78,14 +78,14 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Sachi.png"}
                             feedback={"Every member of Bravas Digital treats my brand as their own brainchild. They understand our objectives and make sure all tasks are aligned accordingly. Highly recommend them for growing brands."}
-                            name={"SUCHI SANDHU"}
+                            name={"Suchi Sandhu"}
                             designation={"Managing Director, Sweet Stuff Private Limited "} />
                     </SwiperSlide>
                     <SwiperSlide >
                         <TestimonialComp
                             img={"assets/images/testimonial/Xerrxes.png"}
                             feedback={"We have been associated with Bravas Digital for the past 2 years. With an eye on ingenuity, they have consistently provided good creatives through this period."}
-                            name={"XERRXEX MASTER"}
+                            name={"Xerrxes Master"}
                             designation={"President, Association of Multimodal Transport Operators of India [AMTOI]"}
                         />
                     </SwiperSlide>
@@ -93,7 +93,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Vineet.png"}
                             feedback={"We have been very impressed with their creativity, responsiveness and capabilities in the remodelling of our company logo, creatives for our website and social media. "}
-                            name={"Vineet Singhal,"}
+                            name={"Vineet Singhal"}
                             designation={" Chief Operating Officer, SGN Nanopharma Inc."} />
                     </SwiperSlide>
                     <SwiperSlide >
@@ -107,7 +107,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Rikshit.png"}
                             feedback={"As a start-up, it's great to have someone like the Bravas Digital Team to rely on our marketing efforts. They have a wonderful team of experts taking care of all the different aspects of marketing."}
-                            name={"Rikshit Kotian,"}
+                            name={"Rikshit Kotian"}
                             designation={"Director - Business Development, Verraton Health Private Limited"} />
 
                     </SwiperSlide>
@@ -120,7 +120,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Anil.png"}
                             feedback={"The Bravas Digital team is highly responsive and is very quick on the uptake of our ever-evolving business strategies. They are an excellent partner for your digital communication requirements."}
-                            name={"Siddharth Nair"}
+                            name={"Anil Nair"}
                             designation={"Co-Founder, Goodwind Mototours"}
                         />
                     </SwiperSlide>
@@ -128,14 +128,14 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Sachi.png"}
                             feedback={"Every member of Bravas Digital treats my brand as their own brainchild. They understand our objectives and make sure all tasks are aligned accordingly. Highly recommend them for growing brands."}
-                            name={"SUCHI SANDHU"}
+                            name={"Suchi Sandhu"}
                             designation={"Managing Director, Sweet Stuff Private Limited "} />
                     </SwiperSlide>
                     <SwiperSlide >
                         <TestimonialComp
                             img={"assets/images/testimonial/Xerrxes.png"}
                             feedback={"We have been associated with Bravas Digital for the past 2 years. With an eye on ingenuity, they have consistently provided good creatives through this period."}
-                            name={"XERRXEX MASTER"}
+                            name={"Xerrxes Master"}
                             designation={"President, Association of Multimodal Transport Operators of India [AMTOI]"}
                         />
                     </SwiperSlide>
@@ -143,7 +143,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Vineet.png"}
                             feedback={"We have been very impressed with their creativity, responsiveness and capabilities in the remodelling of our company logo, creatives for our website and social media. "}
-                            name={"Vineet Singhal,"}
+                            name={"Vineet Singhal"}
                             designation={" Chief Operating Officer, SGN Nanopharma Inc."} />
                     </SwiperSlide>
                     <SwiperSlide >
@@ -157,7 +157,7 @@ const Slider = () => {
                         <TestimonialComp
                             img={"assets/images/testimonial/Rikshit.png"}
                             feedback={"As a start-up, it's great to have someone like the Bravas Digital Team to rely on our marketing efforts. They have a wonderful team of experts taking care of all the different aspects of marketing."}
-                            name={"Rikshit Kotian,"}
+                            name={"Rikshit Kotian"}
                             designation={"Director - Business Development, Verraton Health Private Limited"} />
 
                     </SwiperSlide>
