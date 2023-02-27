@@ -30,8 +30,7 @@ function TestimonialComp({ feedback, img, name, designation }) {
           </div>
         </div>
         </div>
-      </div>
-      
+      </div>  
     </div>
   )
 }
