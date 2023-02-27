@@ -24,7 +24,7 @@ function Connect() {
             </div>
           </div>
           <button className="bg-green-2 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16 items-center mx-auto">
-            CONNECT WITH US
+            <a href="https://siddharth223358.typeform.com/to/zj0SLmyj" target="_blank">CONNECT WITH US</a>
           </button>
         </div> 
         <img src="/assets/images/connect/send-1.png" alt="Send-img" className='sticky bottom-0 mr-10' /> 
@@ -53,7 +53,7 @@ function Connect() {
         </div>
         
         <button className="bg-green-2 drop-shadow-button text-black hover:font-bold font-light py-2 px-4 rounded flex justify-center mt-16  items-center mx-auto">
-          CONNECT WITH US
+          <a href="https://siddharth223358.typeform.com/to/zj0SLmyj" target="_blank">CONNECT WITH US</a>
         </button>
         <img src="/assets/images/connect/send-1.png" alt="Send-img" className='sticky bottom-0 w-1/4' />
       </div>  
