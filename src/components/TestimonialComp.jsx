@@ -12,7 +12,7 @@ function TestimonialComp({ feedback, img, name, designation }) {
           </div>
           <div className='bg-dark rounded-md h-[186px] absolute bottom-0 inset-x-0'>
             <h1 className='mt-24 text-white text-center text-lg font-bold'>{name}</h1>
-            <p className='text-white text-center text-sm font-light px-8'>{designation}</p>
+            <p className='text-[#898989] text-center text-sm font-light px-8'>{designation}</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ function TestimonialComp({ feedback, img, name, designation }) {
           </div>
           <div className='bg-dark rounded-md h-[186px] absolute bottom-0 inset-x-0'>
             <h1 className='mt-24 text-white text-center text-lg font-bold'>{name}</h1>
-            <p className='text-white text-center text-sm font-light px-8'>{designation}</p>
+            <p className='text-[#898989] text-center text-sm font-light px-8'>{designation}</p>
           </div>
         </div>
         </div>
