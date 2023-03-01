@@ -26,11 +26,11 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
               </div>
             )}
             <div className='w-60 lg:w-[276px] h-16 lg:h-20 bg-white drop-shadow-white rounded-md py-2 mx-auto lg:py-4'>
-              <p className='text-base text-center  '>{designation}</p>
+              <p className='text-base text-center text-[#4d4d4d]  '>{designation}</p>
               <h1 className='font-bold text-base text-center'>{name}</h1>
             </div>
             <div className='px-7 '>
-              <p className='text-sm font-light mt-4 mb-4 text-black text-center mx-2 lg:mx-6 '>{tagline}</p>
+              <p className='text-sm font-light mt-4 mb-4 text-[#343434] text-center mx-2 lg:mx-6 '>{tagline}</p>
             </div>
           </div>
       </div>
@@ -57,11 +57,11 @@ function TeamComp({img , designation , name , tagline , linkedin , mail }) {
               </div>
 
             <div className='w-[138px] mx-auto  h-10 bg-white drop-shadow-white rounded-md py-2'>
-              <p className='text-[9px] text-center  '>{designation}</p>
+              <p className='text-[9px] text-center text-[#4d4d4d] '>{designation}</p>
               <h1 className='font-bold text-[10px] text-center'>{name}</h1>
             </div>
             <div className='px-4 '>
-              <p className='text-[9px] font-light mt-1 mb-4 text-black text-center  '>{tagline}</p>
+              <p className='text-[9px] font-light mt-1 mb-4 text-[#343434]  text-center  '>{tagline}</p>
             </div>
           </div>
         </div>

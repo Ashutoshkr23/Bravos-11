@@ -74,7 +74,7 @@ function About() {
         </div>
         
         
-        <p className='text-center text-5xl text-white my-24'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
+        <p className='text-center font-light text-5xl text-white my-24'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
       </div>
       {/*Mobiles*/}
       <div className='lg:hidden mx-4 sm:mx-10'>
