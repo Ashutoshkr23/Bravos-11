@@ -74,6 +74,7 @@ body{
     transform: translateY(-50%);    
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
+    line-height:1.5;
   }
   @keyframes typewriter{
     from{width: 0;}
