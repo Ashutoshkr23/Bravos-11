@@ -1,4 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { FB_PIXEL_ID } from '../lib/fpixel'
+
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -30,7 +32,16 @@ class MyDocument extends Document {
                 <meta property="og:url" content="https://www.bravasdigital.com/" />
                 <meta property="og:site_name" content="Best Digital Marketing Agency in Mumbai | Bravas Digital" />
                 <meta name="twitter:card" content="summary" />
-                <Head/>
+                <Head>
+                <noscript>
+                    <img
+                        height="1"
+                        width="1"
+                        style={{ display: 'none' }}
+                        src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+                    />
+                </noscript>
+                </Head>
                
                 <body>
                     <Main />
