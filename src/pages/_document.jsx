@@ -25,6 +25,7 @@ class MyDocument extends Document {
             <Html lang="en">
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="description" content="Bravas Digital is a 360° ROI-focused digital marketing agency that caters around all the end-to-end digital marketing services. Talk to a Digital Expert Now" />
+                <meta name="facebook-domain-verification" content="t9i0c75tp33caowjlfvcp6ig06u20j" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Bravas Digital" />
