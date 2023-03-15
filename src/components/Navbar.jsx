@@ -1,9 +1,35 @@
 
-import React, {useState}from 'react'
+import React, {useState , useEffect}from 'react'
 import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
+    const [date, setDate] = useState();
+
+    function getYear() {
+        setDate(new Date().getFullYear());
+    }
+
+    useEffect(() => {
+        getYear();
+    }, [])
+
+    const fadeIn = {
+        initial: {
+            opacity: 0
+        },
+        animate: {
+            opacity: 1,
+            transition: {
+                duration: 0.3
+            }
+        },
+        exit: {
+            opacity: 0,
+        }
+    }
 
    
   return (
@@ -89,42 +115,46 @@ function Navbar() {
                               </div>
                       </button>
                       {isOpen && (
-                          <div className="absolute w-full h-screen  right-0 top-0 bg-dark border rounded-md shadow-lg z-10">
-                              <div className="py-1 px-4 ">
-                                  <a
-                                      href="#about"
-                                      className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
-                                  >
-                                      About
-                                  </a>
-                                      <a
-                                          href="#services"
-                                          className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
-                                      >
-                                          Services
-                                      </a>
-                                      <a
-                                          href="#team"
-                                          className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
-                                      >
-                                          Team
-                                      </a>
-                                      <a
-                                          href="#work"
-                                          className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
-                                      >
-                                         Work 
-                                      </a>
-                                      <a
-                                          href="#testimonials"
-                                          className="block px-4 py-2 text-white hover:font-bold hover:bg-gray-900 rounded-sm hover:text-gray-100"
-                                      >
-                                          Testimonial
-                                      </a>
-                                      
-                              </div>
-                          </div>
-                      )}  
+                              <AnimatePresence>
+                                  <motion.div variants={fadeIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false }} className="absolute ease-in duration-800  w-full h-screen top-0 right-0 text-white   border-white border-8 bg-dark shadow-lg z-10">
+                                      <div className='flex flex-col h-full  content-between'>
+                                          <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light w-10/12 z-20">
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  py-2  border-b-2 border-white ">
+                                                  <a href="#about" className="nav-link ">ABOUT</a>
+                                              </div>
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white">
+                                                  <a href="#services" className="nav-link ">SERVICES</a>
+                                              </div>
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
+                                                  <a href="#team" className="nav-link ">TEAM</a>
+                                              </div>
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
+                                                  <a href="#work" className="nav-link ">WORK</a>
+                                              </div>
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  border-b-2 border-white py-4   ">
+                                                  <a href="#testimonials" className="nav-link ">TESTIMONIAL</a>
+                                              </div>
+                                          </div>
+                                          <div className='mt-auto'>
+                                              <div className="flex flex-row flex-wrap justify-center mx-auto my-4 min-w-0 items-center" style={{ height: '40px', borderRadius: '19px', margin: 'auto' }}>
+                                                  <a href="#" target="blank" className="w-11 h-10">
+                                                      <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/Images/footer/fb.svg"} alt="facebook icon" />
+                                                  </a>
+                                                  <a href="#" target="blank" className="w-11 h-10">
+                                                      <img className="w-6 h-6 hover:scale-125 inline-block" src="assets/Images/footer/linkedin.ico" alt="linkedin icon" />
+                                                  </a>
+                                                  <a href="#" target="blank" className="w-11 h-10">
+                                                      <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/Images/footer/instagram-light.ico"} alt="instagram icon" />
+                                                  </a>
+                                              </div>
+                                              <div className="text-center pb-6 text-white text-base opacity-80 ">© {date} BY BRAVAS DIGITAL</div>
+                                          </div>
+
+                                      </div>
+
+                                  </motion.div>
+                              </AnimatePresence>
+                          )}
                   </div>
               </div>
           </nav>
