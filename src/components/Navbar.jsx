@@ -75,11 +75,21 @@ function Navbar() {
                           <button className='h-10 btn w-28 ml-12 rounded text-white border border-white hover:bg-green-2 hover:border-none hover:font-bold my-auto mr-4'><a href="https://siddharth223358.typeform.com/to/zj0SLmyj" target="_blank">Get in Touch</a></button>
                       <button
                           onClick={() => setIsOpen(!isOpen)}
-                          type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                          <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
+                          type="button" className="inline-flex relative z-[100] items-center ">
+                              <div className='  h-3.5 w-5'>
+                                  <div
+                                      className={` h-0.5 bg-white w-5 origin-top-left ease-in duration-200 rounded-md ${isOpen ? 'rotate-45 translate-x-px' : 'rotate-0'}`}
+                                  />
+                                  <div
+                                      className={` h-0.5 w-5 bg-white ease-in duration-200 rounded-md mt-1 ${isOpen ? 'hidden' : 'block'}`}
+                                  />
+                                  <div
+                                      className={` h-0.5 w-5 bg-white ease-in duration-200  rounded-md mt-1  ${isOpen ? '-rotate-45 -translate-x-0.5 ' : 'rotate-0 '}`}
+                                  />
+                              </div>
                       </button>
                       {isOpen && (
-                          <div className="absolute w-1/2 right-0 mt-12 mr-10 bg-dark border rounded-md shadow-lg z-10">
+                          <div className="absolute w-full h-screen  right-0 top-0 bg-dark border rounded-md shadow-lg z-10">
                               <div className="py-1 px-4 ">
                                   <a
                                       href="#about"
@@ -118,10 +128,7 @@ function Navbar() {
                   </div>
               </div>
           </nav>
-          </div>
-
-          
-          
+          </div>  
       </div>
   )
 }
