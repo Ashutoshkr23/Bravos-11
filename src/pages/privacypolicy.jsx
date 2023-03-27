@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar1 from '../components/Navbar1'
 
 function privacypolicy() {
   return (
     <div>
-        <Navbar />
+        <Navbar1 />
         <div className='mx-8 md:mx-16 lg:mx-28 py-20 md:py-24 lg:py-40 bg-white text-black'>
               <h1 className='text-xl  md:text-2xl lg:text-5xl font-bold'>PRIVACY POLICY</h1>
               <h3 className='text-xs md:text-base mt-4 md:mt-12 lg:mt-16'>INTRODUCTION:</h3>
