@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <Head>
       {/* Adding script for microsoft clarity */}
       <Script
-        id="clarity"
+        id="ms_clarity"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `

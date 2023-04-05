@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <Script
-        id="clarity"
+        id="ms_clarity"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
