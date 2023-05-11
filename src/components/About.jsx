@@ -75,6 +75,9 @@ function About() {
         
         
         <p className='text-center font-light text-5xl text-white my-24'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
+        <div className='flex justify-center'>
+          <button className='h-10 btn w-40 ml-12 rounded hover:bg-green-2 hover:font-bold hover:border-none text-white border border-white my-auto'><a href="/assets/docs/BD-Deck.pdf" download >Download Deck</a></button>
+        </div>
       </div>
       {/*Mobiles*/}
       <div className='lg:hidden mx-4 sm:mx-10'>
@@ -122,6 +125,9 @@ function About() {
           </div>
         </div>
         <p className='text-center text-xl md:text-2xl text-white mt-12'>WE ARE <span className='font-bold text-green-2'>BRAVE.</span>  WE ARE <span className='font-bold text-green-2'>BRAVAS.</span></p>
+        <div className='flex justify-center mt-8'>
+          <button className='h-10 btn w-40 rounded hover:bg-green-2 hover:font-bold hover:border-none text-white border border-white my-auto'><a href="/assets/docs/BD-Deck.pdf" download >Download Deck</a></button>
+        </div>
 
       </div>
       

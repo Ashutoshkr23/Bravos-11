@@ -10,7 +10,7 @@ function Team() {
   return (
     <div className=' relative  ' id='team'>
           {/*Laptop */}
-          <div className='hidden lg:block ' style={divStyle}>
+          <div className='hidden lg:block pb-20' style={divStyle}>
                 <img src="./assets/images/team/Laptop-team.png" alt="team" className='absolute -top-10 right-0' />
               <div className='flex justify-between'>
                   <div className='w-4/5 mx-auto'>
@@ -21,23 +21,24 @@ function Team() {
                                   <h1 className='text-black font-bold text-5xl text-center mt-5'>MEET THE TEAM</h1>
                               </div>
                               <div className='flex mx-auto gap-10 justify-center mt-16'>
-                                  <div>
-                                      <TeamComp
-                                          img={"./assets/images/team/Sid.png"}
-                                          designation={"CEO"}
-                                          name={"SIDDHARTH NAIR"}
-                                          tagline={"A bearded corporate fixer"}
-                                          linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
-                                          mail={"siddharth@bravasdigital.com"} />
-                                  </div>
+                                  
                                   <div >
                                       <TeamComp
                                           img={"./assets/images/team/Vaishnav.png"}
-                                          designation={"COO"}
+                                          designation={"CEO"}
                                           name={"VAISHNAV MANAV"}
                                           tagline={"Work. Invest. Explore in that order"}
                                           linkedin={"https://www.linkedin.com/in/vaishnav-manav/"}
                                           mail={"vaishnav@bravasdigital.com"} />
+                                  </div>
+                                  <div>
+                                      <TeamComp
+                                          img={"./assets/images/team/Sid.png"}
+                                          designation={"Advisor"}
+                                          name={"SIDDHARTH NAIR"}
+                                          tagline={"A bearded corporate fixer"}
+                                          linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
+                                          mail={"siddharth@bravasdigital.com"} />
                                   </div>
                                   <div>
                                       <TeamComp img={"./assets/images/team/Sandeep.png"}
@@ -50,14 +51,14 @@ function Team() {
                               <div className='flex mx-auto gap-10 justify-center mt-10'>
                                   <div>
                                       <TeamComp img={"./assets/images/team/Krishna.png"}
-                                          designation={"Digital Marketing Manager"}
+                                          designation={"Social Media Marketing Director"}
                                           name={"KRISHNA RAO"}
                                           tagline={"I believe in ideating new campaigns even in my sleep"}
                                           linkedin={"https://www.linkedin.com/in/krishna-rao-85ab6a15a"} />
                                   </div>
                                   <div >
                                       <TeamComp img={"./assets/images/team/Gorashi.png"}
-                                          designation={"Digital Marketing Manager"}
+                                          designation={"Paid Marketing Director"}
                                           name={"GORANSHI JAIN"}
                                           tagline={"CREATE. CURATE. CAMPAIGN."}
                                           linkedin={"https://www.linkedin.com/in/goranshi-jain-857b6715a"} />
@@ -94,13 +95,6 @@ function Team() {
                                   </div>
                               </div>
                               <div className='flex mx-auto gap-10 justify-center mt-10'>
-                                  <div>
-                                      <TeamComp img={"./assets/images/team/Rishita1.png"}
-                                          designation={"Digital Marketing Executive"}
-                                          name={"RISHITA HAREL"}
-                                          tagline={"Self-belief and Hard work will always earn you success"} 
-                                          linkedin={"https://www.linkedin.com/in/rishita-harel-77b672207"}/>
-                                  </div>
                               </div>
                           </div>
                       </div>
@@ -122,23 +116,24 @@ function Team() {
                           <h1 className='text-black font-bold text-2xl sm:text-3xl text-center mt-2'>MEET THE TEAM</h1>
                       </div>
                       <div className='grid grid-cols-2 mx-6 sm:mx-12 gap-y-10 gap-x-4  mt-10 justify-items-center'>
-                          <div>
-                              <TeamComp
-                                  img={"./assets/images/team/Sid.png"}
-                                  designation={"CEO"}
-                                  name={"SIDDHARTH NAIR"}
-                                  tagline={"A bearded corporate fixer"} 
-                                  linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
-                                  mail={"siddharth@bravasdigital.com"}/>
-                          </div>
+                         
                           <div >
                               <TeamComp
                                   img={"./assets/images/team/Vaishnav.png"}
-                                  designation={"COO"}
+                                  designation={"CEO"}
                                   name={"VAISHNAV MANAV"}
                                   tagline={"Work. Invest. Explore in that order"}
                                   linkedin={"https://www.linkedin.com/in/vaishnav-manav/"}
                                   mail={"vaishnav@bravasdigital.com"} />
+                          </div>
+                          <div>
+                              <TeamComp
+                                  img={"./assets/images/team/Sid.png"}
+                                  designation={"Advisor"}
+                                  name={"SIDDHARTH NAIR"}
+                                  tagline={"A bearded corporate fixer"}
+                                  linkedin={"https://www.linkedin.com/in/siddharth-nair-b30a3413b"}
+                                  mail={"siddharth@bravasdigital.com"} />
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Sandeep.png"}
@@ -149,14 +144,14 @@ function Team() {
                           </div>
                           <div>
                               <TeamComp img={"./assets/images/team/Krishna.png"}
-                                  designation={"Digital Marketing Manager"}
+                                  designation={"Social Media Marketing Director"}
                                   name={"KRISHNA RAO"}
                                   tagline={"I believe in ideating new campaigns even in my sleep"} 
                                   linkedin={"https://www.linkedin.com/in/krishna-rao-85ab6a15a"}/>
                           </div>
                           <div >
                               <TeamComp img={"./assets/images/team/Gorashi.png"}
-                                  designation={"Digital Marketing Manager"}
+                                  designation={"Paid Marketing Director"}
                                   name={"GORANSHI JAIN"}
                                   tagline={"CREATE. CURATE. CAMPAIGN."}
                                   linkedin={"https://www.linkedin.com/in/goranshi-jain-857b6715a"} />
@@ -190,11 +185,6 @@ function Team() {
                                   linkedin={"https://www.linkedin.com/in/mahek-sachdeva-3b93a0235"} />
                           </div>
                           <div>
-                              <TeamComp img={"./assets/images/team/Rishita1.png"}
-                                  designation={"Digital Marketing Executive"}
-                                  name={"RISHITA HAREL"}
-                                  tagline={"Self-belief and Hard work will always earn you success"}
-                                  linkedin={"https://www.linkedin.com/in/rishita-harel-77b672207"} />
                           </div>
                       </div>
                   </div>
